@@ -1,15 +1,44 @@
 import yaml
 
 
-def load_config():
-    with open('config.yml', 'r') as file:
-        return yaml.safe_load(file)
+class ConfigManager:
+    _config = None
+
+    @classmethod
+    def load_config(cls, final_config_file=None):
+        if final_config_file is not None:
+            cls._config = final_config_file
+            return cls._config
+        else:
+            with open('config.yml', 'r') as file:
+                cls._config = yaml.safe_load(file)
+                return cls._config
+
+    @classmethod
+    def get_config(cls):
+        if cls._config is None:
+            raise ValueError("Config not loaded yet")
+        return cls._config
+
+    @classmethod
+    def config_faker_locales(cls):
+        return cls.get_config().get("faker", {}).get("locale", ["en_US"])
+
+    @classmethod
+    def config_maternity(cls):
+        return cls.get_config().get("maternity", 0.0)
+
+    @classmethod
+    def config_result_format(cls):
+        return cls.get_config().get("result_format", 'json')
+
+    @classmethod
+    def config_filter_icd_groups(cls):
+        return set(cls.get_config().get("filter_icd_prefix", []))
+
+    @classmethod
+    def config_record(cls):
+        return cls.get_config().get("records", 1)
 
 
-config = load_config()
-config_faker_locales = config.get("faker", {}).get("locale", ["en_US"])
-config_maternity = config.get("maternity", 0.0)
-# config_male = config.get("gender", {}).get("male", 0.5)
-# config_female = config.get("gender", {}).get("female", 0.5)
-config_result_format = config.get("result_format", 'json')
-config_filter_icd_groups = set(config.get("filter_icd_prefix", []))
+ConfigManager.load_config()

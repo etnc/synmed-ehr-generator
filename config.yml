@@ -8,3 +8,4 @@ filter_icd_prefix: #prefix of ICD codes that won't be included in EHRs
   - A0
   - E10
 result_format: 'JSON' #XML;JSON; turtle; rdf/xml; json-ld
+records: 100

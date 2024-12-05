@@ -1,7 +1,8 @@
 import random
 import re
 import pycountry
-from config import config_maternity
+
+from config import ConfigManager
 from data.distributions import age_ranges, age_distribution, gender_distribution
 from domain.Gender import Gender
 
@@ -53,7 +54,7 @@ def get_phone_number(phone_number):
 
 def determine_maternity(gender, age_group):
     if gender == Gender.FEMALE.value and (age_group == "adults" or age_group == 'young adults'):
-        weight = config_maternity
+        weight = ConfigManager.config_maternity()
         rand_num = random.random()
         if rand_num < weight:
             return True

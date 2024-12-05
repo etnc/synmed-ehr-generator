@@ -2,7 +2,8 @@ import random
 from collections import defaultdict
 from functools import lru_cache
 from itertools import chain
-from config import config_filter_icd_groups
+
+from config import ConfigManager
 from data.chapter_weights import chapter_probs, chapter_weights
 from data.distributions import age_groups_diagnoses, male_diagnoses, maternity_diagnoses, female_diagnoses, age_ranges
 from data.icd_groups import icd_groups
@@ -51,6 +52,7 @@ def get_filtered_diagnoses(chapter, gender, age_group, maternity):
         maternity = True
     relevant_code_groups = [code for code in icd_groups if code.startswith(chapter)]
     relevant_codes = list(chain(*[icd_groups[group] for group in relevant_code_groups]))
+    config_filter_icd_groups = ConfigManager.config_filter_icd_groups()
 
     config_filter_diagnoses = list(code for code in config_filter_icd_groups if code in relevant_codes)
     if age_group == 'newborn':
