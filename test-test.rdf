@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:base="https://synmed.org/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:schema="https://schema.org/"
+>
+  <rdf:Description rdf:about="https://synmed.org/medication/R06AD03">
+    <rdf:type rdf:resource="https://schema.org/Drug"/>
+    <schema:name>thiethylperazine</schema:name>
+    <schema:identifier>R06AD03</schema:identifier>
+    <schema:description>Dosage: 13.0 mg per day</schema:description>
+    <schema:administrationRoute>Parenteral</schema:administrationRoute>
+    <base:hasAdministrationRoute rdf:resource="https://synmed.org/route/Parenteral"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://synmed.org/patient/837f7352-b">
+    <rdf:type rdf:resource="https://schema.org/Person"/>
+    <schema:name>Edward Marshall</schema:name>
+    <schema:gender>Male</schema:gender>
+    <schema:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</schema:age>
+    <schema:address> 59906 Jeffrey Bypass, South Fernando, United States</schema:address>
+    <schema:birthDate>1958-10-10</schema:birthDate>
+    <schema:telephone>(945) 382-6228</schema:telephone>
+    <schema:diagnosis rdf:resource="https://synmed.org/diagnosis/T46.1X1D"/>
+    <schema:usesDrug rdf:resource="https://synmed.org/medication/V03AC01"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://synmed.org/patient/9735e1e6-c">
+    <rdf:type rdf:resource="https://schema.org/Person"/>
+    <schema:name>Timothy Brown</schema:name>
+    <schema:gender>Male</schema:gender>
+    <schema:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</schema:age>
+    <schema:address> 6614 James Alley, Stevenfurt, United States</schema:address>
+    <schema:birthDate>1970-04-19</schema:birthDate>
+    <schema:telephone>(370) 488-2393</schema:telephone>
+    <schema:diagnosis rdf:resource="https://synmed.org/diagnosis/S72.052E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://synmed.org/diagnosis/T27.5XXA">
+    <rdf:type rdf:resource="https://schema.org/MedicalCondition"/>
+    <schema:identifier>T27.5XXA</schema:identifier>
+    <schema:name>Corrosion involving larynx and trachea w lung, init encntr</schema:name>
+    <schema:description>Corrosion involving larynx and trachea with lung, initial encounter</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://synmed.org/patient/74e05f36-6">
+    <rdf:type rdf:resource="https://schema.org/Person"/>
+    <schema:name>Daniel Dominguez</schema:name>
+    <schema:gender>Female</schema:gender>
+    <schema:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:age>
+    <schema:address> 306 Michael Isle, Buckleyfort, United States</schema:address>
+    <schema:birthDate>2021-06-30</schema:birthDate>
+    <schema:telephone>(521) 686-8049</schema:telephone>
+    <schema:diagnosis rdf:resource="https://synmed.org/diagnosis/K76.82"/>
+    <schema:usesDrug rdf:resource="https://synmed.org/medication/R06AD03"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://synmed.org/medication/V03AC01">
+    <rdf:type rdf:resource="https://schema.org/Drug"/>
+    <schema:name>deferoxamine</schema:name>
+    <schema:identifier>V03AC01</schema:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://synmed.org/patient/be00b609-7">
+    <rdf:type rdf:resource="https://schema.org/Person"/>
+    <schema:name>Patrick Ellis</schema:name>
+    <schema:gender>Female</schema:gender>
+    <schema:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</schema:age>
+    <schema:address> 7852 Johnson Via, New Andrew, United States</schema:address>
+    <schema:birthDate>1976-01-18</schema:birthDate>
+    <schema:telephone>(841) 682-7755</schema:telephone>
+    <schema:diagnosis rdf:resource="https://synmed.org/diagnosis/T27.5XXA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://synmed.org/patient/e784c8da-a">
+    <rdf:type rdf:resource="https://schema.org/Person"/>
+    <schema:name>Paul Castillo</schema:name>
+    <schema:gender>Female</schema:gender>
+    <schema:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</schema:age>
+    <schema:address> 51563 Peter Center, South Crystalmouth, United States</schema:address>
+    <schema:birthDate>1999-03-24</schema:birthDate>
+    <schema:telephone>(989) 770-2765</schema:telephone>
+    <schema:diagnosis rdf:resource="https://synmed.org/diagnosis/S85.092D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://synmed.org/diagnosis/S85.092D">
+    <rdf:type rdf:resource="https://schema.org/MedicalCondition"/>
+    <schema:identifier>S85.092D</schema:identifier>
+    <schema:name>Oth injury of popliteal artery, left leg, subs encntr</schema:name>
+    <schema:description>Other specified injury of popliteal artery, left leg, subsequent encounter</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://synmed.org/hasHistoricalDiagnosis">
+    <rdfs:domain rdf:resource="https://schema.org/Patient"/>
+    <rdfs:range rdf:resource="https://schema.org/MedicalCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://synmed.org/hasAdministrationRoute">
+    <rdfs:domain rdf:resource="https://schema.org/Medication"/>
+    <rdfs:range rdf:resource="https://schema.org/AdministrationRoute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://synmed.org/diagnosis/S72.052E">
+    <rdf:type rdf:resource="https://schema.org/MedicalCondition"/>
+    <schema:identifier>S72.052E</schema:identifier>
+    <schema:name>Unsp fx head of l femr, 7thE</schema:name>
+    <schema:description>Unspecified fracture of head of left femur, subsequent encounter for open fracture type I or II with routine healing</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://synmed.org/diagnosis/T46.1X1D">
+    <rdf:type rdf:resource="https://schema.org/MedicalCondition"/>
+    <schema:identifier>T46.1X1D</schema:identifier>
+    <schema:name>Poisoning by calcium-channel blockers, accidental, subs</schema:name>
+    <schema:description>Poisoning by calcium-channel blockers, accidental (unintentional), subsequent encounter</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://synmed.org/diagnosis/K76.82">
+    <rdf:type rdf:resource="https://schema.org/MedicalCondition"/>
+    <schema:identifier>K76.82</schema:identifier>
+    <schema:name>Hepatic encephalopathy</schema:name>
+    <schema:description>Hepatic encephalopathy</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://synmed.org/route/Parenteral">
+    <rdf:type rdf:resource="https://synmed.org/AdministrationRoute"/>
+    <base:name>Parenteral</base:name>
+    <base:description>Medication administered by injection or infusion</base:description>
+  </rdf:Description>
+</rdf:RDF>

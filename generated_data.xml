@@ -1,0 +1,260 @@
+<?xml version="1.0" ?>
+<PatientRecord>
+	<item>
+		<personal_information>
+			<patient_id>487aa5df-c</patient_id>
+			<full_name>Adam Rogers</full_name>
+			<gender>Male</gender>
+			<address> 51171 Anita Loop, South Elizabethton, United States</address>
+			<phone>(237) 719-7797</phone>
+			<age>50</age>
+			<date_of_birth>1973-12-11</date_of_birth>
+		</personal_information>
+		<medical_information>
+			<diagnosis>
+				<ICD>S56.009S</ICD>
+				<name>Unsp inj flexor musc/fasc/tend thmb at forarm lv, sequela</name>
+				<description>Unspecified injury of flexor muscle, fascia and tendon of unspecified thumb at forearm level, sequela</description>
+			</diagnosis>
+		</medical_information>
+	</item>
+	<item>
+		<personal_information>
+			<patient_id>14399f8e-5</patient_id>
+			<full_name>Rolando Pelayo</full_name>
+			<gender>Male</gender>
+			<address> 6880 Privada Swazilandia, San Nelly los altos, Mexico</address>
+			<phone>(552) 032-6035</phone>
+			<age>50</age>
+			<date_of_birth>1974-02-13</date_of_birth>
+		</personal_information>
+		<medical_information>
+			<diagnosis>
+				<ICD>S44.91XA</ICD>
+				<name>Injury of unsp nerve at shldr/up arm, right arm, init</name>
+				<description>Injury of unspecified nerve at shoulder and upper arm level, right arm, initial encounter</description>
+			</diagnosis>
+		</medical_information>
+	</item>
+	<item>
+		<personal_information>
+			<patient_id>d9278f6a-b</patient_id>
+			<full_name>Bobby Gomez</full_name>
+			<gender>Female</gender>
+			<address> 6884 Romero Viaduct, Matthewfort, United States</address>
+			<phone>(995) 378-8477</phone>
+			<age>64</age>
+			<date_of_birth>1960-11-29</date_of_birth>
+		</personal_information>
+		<medical_information>
+			<diagnosis>
+				<ICD>I63.10</ICD>
+				<name>Cerebral infarction due to embolism of unsp precerb artery</name>
+				<description>Cerebral infarction due to embolism of unspecified precerebral artery</description>
+			</diagnosis>
+			<medication>
+				<ATC>N02BA51</ATC>
+				<name>acetylsalicylic acid, combinations excl. psycholeptics</name>
+			</medication>
+			<medical_history>
+				<item>
+					<ICD>I66.19</ICD>
+					<name>Occlusion and stenosis of unsp anterior cerebral artery</name>
+					<description>Occlusion and stenosis of unspecified anterior cerebral artery</description>
+				</item>
+			</medical_history>
+		</medical_information>
+	</item>
+	<item>
+		<personal_information>
+			<patient_id>3672387f-d</patient_id>
+			<full_name>William Williams</full_name>
+			<gender>Female</gender>
+			<address> 1282 Victoria Squares, South Lisa, United States</address>
+			<phone>(624) 854-7558</phone>
+			<age>53</age>
+			<date_of_birth>1971-02-03</date_of_birth>
+		</personal_information>
+		<medical_information>
+			<diagnosis>
+				<ICD>M80.029S</ICD>
+				<name>Age-rel osteopor w current path fx, unsp humerus, sequela</name>
+				<description>Age-related osteoporosis with current pathological fracture, unspecified humerus, sequela</description>
+			</diagnosis>
+			<medication>
+				<ATC>G03FA12</ATC>
+				<name>medroxyprogesterone and estrogen</name>
+			</medication>
+		</medical_information>
+	</item>
+	<item>
+		<personal_information>
+			<patient_id>62403b36-6</patient_id>
+			<full_name>Mario Hinton</full_name>
+			<gender>Female</gender>
+			<address> 1400 Vargas Mills, South Miguelport, United States</address>
+			<phone>(975) 682-7120</phone>
+			<age>69</age>
+			<date_of_birth>1955-06-08</date_of_birth>
+		</personal_information>
+		<medical_information>
+			<diagnosis>
+				<ICD>I63.442</ICD>
+				<name>Cerebral infarction due to embolism of left cereblr artery</name>
+				<description>Cerebral infarction due to embolism of left cerebellar artery</description>
+			</diagnosis>
+			<medication>
+				<ATC>N02BA51</ATC>
+				<name>acetylsalicylic acid, combinations excl. psycholeptics</name>
+			</medication>
+			<medical_history>
+				<item>
+					<ICD>I66.29</ICD>
+					<name>Occlusion and stenosis of unsp posterior cerebral artery</name>
+					<description>Occlusion and stenosis of unspecified posterior cerebral artery</description>
+				</item>
+			</medical_history>
+		</medical_information>
+	</item>
+	<item>
+		<personal_information>
+			<patient_id>217bee92-e</patient_id>
+			<full_name>Michael Irwin</full_name>
+			<gender>Female</gender>
+			<address> 37710 Michael Alley, West Lisa, United States</address>
+			<phone>(999) 603-4875</phone>
+			<age>52</age>
+			<date_of_birth>1972-10-08</date_of_birth>
+		</personal_information>
+		<medical_information>
+			<diagnosis>
+				<ICD>I63.131</ICD>
+				<name>Cerebral infarction due to embolism of right carotid artery</name>
+				<description>Cerebral infarction due to embolism of right carotid artery</description>
+			</diagnosis>
+			<medication>
+				<ATC>B01AC10</ATC>
+				<name>indobufen</name>
+			</medication>
+			<medical_history>
+				<item>
+					<ICD>I66.19</ICD>
+					<name>Occlusion and stenosis of unsp anterior cerebral artery</name>
+					<description>Occlusion and stenosis of unspecified anterior cerebral artery</description>
+				</item>
+			</medical_history>
+		</medical_information>
+	</item>
+	<item>
+		<personal_information>
+			<patient_id>7bef284d-3</patient_id>
+			<full_name>Clayton Morgan</full_name>
+			<gender>Female</gender>
+			<address> 353 Nicole Mountain, Leport, United States</address>
+			<phone>(001) 825-9311</phone>
+			<age>73</age>
+			<date_of_birth>1951-02-20</date_of_birth>
+		</personal_information>
+		<medical_information>
+			<diagnosis>
+				<ICD>T22.049D</ICD>
+				<name>Burn of unsp degree of unspecified axilla, subs encntr</name>
+				<description>Burn of unspecified degree of unspecified axilla, subsequent encounter</description>
+			</diagnosis>
+			<medication>
+				<ATC>D03AX05</ATC>
+				<name>hyaluronic acid</name>
+			</medication>
+		</medical_information>
+	</item>
+	<item>
+		<personal_information>
+			<patient_id>926daec0-2</patient_id>
+			<full_name>Kyle Perkins</full_name>
+			<gender>Female</gender>
+			<address> 13338 Michael Plain, New Robert, United States</address>
+			<phone>(583) 346-5413</phone>
+			<age>53</age>
+			<date_of_birth>1971-06-10</date_of_birth>
+		</personal_information>
+		<medical_information>
+			<diagnosis>
+				<ICD>I63.321</ICD>
+				<name>Cerebral infrc due to thombos of right ant cerebral artery</name>
+				<description>Cerebral infarction due to thrombosis of right anterior cerebral artery</description>
+			</diagnosis>
+			<medication>
+				<ATC>C10AX06</ATC>
+				<dosage>4.0 g per day</dosage>
+				<route>
+					<name>Oral</name>
+					<description>Medication taken through the mouth</description>
+				</route>
+				<name>omega-3-triglycerides incl. other esters and acids</name>
+			</medication>
+			<medical_history>
+				<item>
+					<ICD>I66.03</ICD>
+					<name>Occlusion and stenosis of bilateral middle cerebral arteries</name>
+					<description>Occlusion and stenosis of bilateral middle cerebral arteries</description>
+				</item>
+			</medical_history>
+		</medical_information>
+	</item>
+	<item>
+		<personal_information>
+			<patient_id>ff1f4229-f</patient_id>
+			<full_name>Humberto Maestas</full_name>
+			<gender>Female</gender>
+			<address> 5521 Cerrada Aguascalientes, Nueva Ghana, Mexico</address>
+			<phone>(182) 876-7927</phone>
+			<age>57</age>
+			<date_of_birth>1967-05-01</date_of_birth>
+		</personal_information>
+		<medical_information>
+			<diagnosis>
+				<ICD>I63.431</ICD>
+				<name>Cerebral infrc due to embolism of right post cerebral artery</name>
+				<description>Cerebral infarction due to embolism of right posterior cerebral artery</description>
+			</diagnosis>
+			<medication>
+				<ATC>C08CA04</ATC>
+				<dosage>90.0 mg per day</dosage>
+				<route>
+					<name>Parenteral</name>
+					<description>Medication administered by injection or infusion</description>
+				</route>
+				<name>nicardipine</name>
+			</medication>
+			<medical_history>
+				<item>
+					<ICD>I66.21</ICD>
+					<name>Occlusion and stenosis of right posterior cerebral artery</name>
+					<description>Occlusion and stenosis of right posterior cerebral artery</description>
+				</item>
+			</medical_history>
+		</medical_information>
+	</item>
+	<item>
+		<personal_information>
+			<patient_id>26fde796-7</patient_id>
+			<full_name>Kevin Gibson</full_name>
+			<gender>Male</gender>
+			<address> 280 Williamson Passage, Bradleyburgh, United States</address>
+			<phone>(204) 579-4074</phone>
+			<age>79</age>
+			<date_of_birth>1945-08-19</date_of_birth>
+		</personal_information>
+		<medical_information>
+			<diagnosis>
+				<ICD>R40.2143</ICD>
+				<name>Coma scale, eyes open, spontaneous, at hospital admission</name>
+				<description>Coma scale, eyes open, spontaneous, at hospital admission</description>
+			</diagnosis>
+			<medication>
+				<ATC>V03AB25</ATC>
+				<name>flumazenil</name>
+			</medication>
+		</medical_information>
+	</item>
+</PatientRecord>

@@ -1,0 +1,8085 @@
+[
+  {
+    "@id": "https://synmed.org/diagnosis/S12.120A",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Other displaced dens fracture, initial encounter for closed fracture"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S12.120A"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oth displaced dens fracture, init encntr for closed fracture"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/c569e69c-4",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 60799 Calzada Colón, Nueva Bulgaria, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 41
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1983-06-07"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/C50.919"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Linda Mendoza"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(579) 213-8155"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/L01AA06"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/60d21a53-1",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 132 Retorno Norte Villanueva, San Eugenia de la Montaña, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 80
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1944-05-30"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/M26.641"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Esther Acosta"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(195) 823-9697"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/9967e9e7-2",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 333 Viaducto Filipinas, San Leonardo los altos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 70
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1954-02-09"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/T42.5X4A"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Pascual Ibarra"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(348) 030-3728"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/V03AB09"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S86.111S",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Strain of other muscle(s) and tendon(s) of posterior muscle group at lower leg level, right leg, sequela"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S86.111S"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Strain musc/tend post grp at low leg level, right leg, sqla"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/G03AC06",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Parenteral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 1.67 mg per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "G03AC06"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "medroxyprogesterone"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Parenteral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/J01DH03",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Parenteral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 1.0 g per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "J01DH03"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "ertapenem"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Parenteral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/84766fcb-c",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 74099 Nathan Brook, Millershire, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 62
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1962-03-22"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I63.10"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ronald Smith"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(555) 460-7801"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/B01AE03"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/705166c8-b",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 134 Privada Distrito Federal, San Aurelio de la Montaña, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 63
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1961-09-03"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I63.22"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Serafín Domínguez"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(053) 104-8340"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/C05BA04"
+      }
+    ],
+    "https://synmed.org/hasHistoricalDiagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I70.733"
+      },
+      {
+        "@id": "https://synmed.org/diagnosis/I25.812"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/A10BB31",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Oral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 0.5 g per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "A10BB31"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "acetohexamide"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Oral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I67.2",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Cerebral atherosclerosis"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I67.2"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cerebral atherosclerosis"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/23effd33-d",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 822 Corredor Sinaloa, San Alejandro los altos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 48
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1975-12-03"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S06.821A"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Lucía Estévez"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(670) 420-4430"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/N06BX06"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/9db296fe-8",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 4651 Circuito Norte Zaragoza, San José Emilio los altos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 55
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1969-02-10"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S56.196S"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Bernardo Aguayo"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(365) 082-0466"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/09eed159-6",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 46079 Stone Unions, South Kim, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 27
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1997-09-05"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/K08.409"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Brian Keith"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(413) 550-9769"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E11.3541",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, right eye"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E11.3541"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Type 2 diab with prolif diab rtnop with comb detach, r eye"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E02",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Subclinical iodine-deficiency hypothyroidism"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E02"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Subclinical iodine-deficiency hypothyroidism"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/c1e896a1-4",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 685 Jason Ramp, Rothfort, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 79
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1945-03-07"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S62.644A"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Benjamin Bautista"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(614) 476-7619"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/K08.409",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Partial loss of teeth, unspecified cause, unspecified class"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "K08.409"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Partial loss of teeth, unspecified cause, unspecified class"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S82.191K",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Other fracture of upper end of right tibia, subsequent encounter for closed fracture with nonunion"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S82.191K"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oth fx upper end of right tibia, subs for clos fx w nonunion"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/5bc37c83-f",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 2201 Prolongación Norte de la Torre, San Eugenia los altos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 60
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1964-09-15"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I25.728"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Leonardo Frías"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(138) 865-5604"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/M26.641",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Arthritis of right temporomandibular joint"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "M26.641"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Arthritis of right temporomandibular joint"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/09a136cd-5",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 5912 Privada Urías, San Rafaél los bajos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 50
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1974-06-11"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S52.559B"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Yeni Carvajal"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(163) 505-5255"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/0b42a514-d",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 98492 Dixon Avenue, Williamstown, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 70
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1954-07-20"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S52.181P"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Michael Cox"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(803) 665-2541"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/0a98bbce-7",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 7240 Calle Rumania, San Leonardo los bajos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 62
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1961-12-26"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S82.845B"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Jonás Tirado"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(179) 717-3189"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/3122c18a-4",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 168 Ashley Freeway, Brittanystad, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 23
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "2001-09-02"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S52.366M"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Jason Morgan"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(862) 599-8927"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/C37",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Malignant neoplasm of thymus"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "C37"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Malignant neoplasm of thymus"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/T26.91XS",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Corrosion of right eye and adnexa, part unspecified, sequela"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "T26.91XS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Corrosion of right eye and adnexa, part unspecified, sequela"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/C84.97",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Mature T/NK-cell lymphomas, unspecified, spleen"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "C84.97"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Mature T/NK-cell lymphomas, unspecified, spleen"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/6341f6c1-d",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 8577 Privada Distrito Federal, San Camilo de la Montaña, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 43
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1981-10-11"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E11.3541"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Jorge Orozco"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(077) 033-2801"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/A10BB01"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/L02.531",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Carbuncle of right hand"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "L02.531"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Carbuncle of right hand"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/B01AB01",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Parenteral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 10.0 TU per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "B01AB01"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "heparin"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Parenteral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I25.6",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Silent myocardial ischemia"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I25.6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Silent myocardial ischemia"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S65.991S",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Other specified injury of unspecified blood vessel at wrist and hand of right arm, sequela"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S65.991S"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Inj unsp blood vessel at wrs/hnd of right arm, sequela"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/c012ba52-9",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 37595 Privada Canadá, San Daniel los altos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 89
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1935-04-23"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S52.361R"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Iván Polanco"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(088) 200-9959"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/K76.2",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Central hemorrhagic necrosis of liver"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "K76.2"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Central hemorrhagic necrosis of liver"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/M12.561",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Traumatic arthropathy, right knee"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "M12.561"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Traumatic arthropathy, right knee"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/D08AJ59",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "D08AJ59"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "dodeclonium bromide, combinations"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/M80.839P",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Other osteoporosis with current pathological fracture, unspecified forearm, subsequent encounter for fracture with malunion"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "M80.839P"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oth osteopor w crnt path fx, unsp forearm, 7thP"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I63.133",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Cerebral infarction due to embolism of bilateral carotid arteries"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I63.133"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cerebral infrc due to embolism of bilateral carotid arteries"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S53.115D",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Anterior dislocation of left ulnohumeral joint, subsequent encounter"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S53.115D"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Anterior dislocation of left ulnohumeral joint, subs encntr"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/T33.512D",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Superficial frostbite of left wrist, subsequent encounter"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "T33.512D"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Superficial frostbite of left wrist, subsequent encounter"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/9e29236e-0",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 041 Circunvalación Guerrero, Vieja Kirguistán, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 67
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1957-11-28"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E11.649"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Amelia Granado"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(186) 463-8275"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/A10BJ05"
+      }
+    ],
+    "https://synmed.org/hasHistoricalDiagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E02"
+      },
+      {
+        "@id": "https://synmed.org/diagnosis/E79.9"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/N89.3",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dysplasia of vagina, unspecified"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "N89.3"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Dysplasia of vagina, unspecified"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S56.413A",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Strain of extensor muscle, fascia and tendon of right middle finger at forearm level, initial encounter"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S56.413A"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Strain extn musc/fasc/tend r mid finger at forarm lv, init"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E11.610",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Type 2 diabetes mellitus with diabetic neuropathic arthropathy"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E11.610"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Type 2 diabetes mellitus w diabetic neuropathic arthropathy"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/c990198c-b",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 59534 Prolongación Sur Jaime, San Isabel los altos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 40
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1984-11-10"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S52.201C"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Elvira Badillo"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(103) 326-6257"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/A54.5",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Gonococcal pharyngitis"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "A54.5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Gonococcal pharyngitis"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/A12AA08",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "A12AA08"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "calcium glycerylphosphate"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S66.595S",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Other injury of intrinsic muscle, fascia and tendon of left ring finger at wrist and hand level, sequela"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S66.595S"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Inj intrns musc/fasc/tend l rng fngr at wrs/hnd lv, sequela"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/886dae06-1",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 94939 Michael Locks, West Tonyafort, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 68
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1956-08-12"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/M1A.38X1"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "William Stevens"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(883) 381-3969"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/ff9e6e50-9",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 023 Mullen Locks, Port John, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 45
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1979-04-24"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/M05.069"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Matthew Wagner"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(151) 042-5082"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/M01AC02"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/L01AA06",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "L01AA06"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "ifosfamide"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I63.6",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Cerebral infarction due to cerebral venous thrombosis, nonpyogenic"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I63.6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cerebral infrc due to cerebral venous thombos, nonpyogenic"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/L04AX03",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Parenteral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 2.5 mg per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "L04AX03"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "methotrexate"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Parenteral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/A10BB01",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Oral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 7.0 mg per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "A10BB01"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "glibenclamide"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Oral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/7549fe35-a",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 7027 Callejón Marroquín, Nueva Bangladesh, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 31
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1993-10-13"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/T81.599A"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Anabel Frías"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(637) 453-1045"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E79.0",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Hyperuricemia without signs of inflammatory arthritis and tophaceous disease"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E79.0"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Hyperuricemia w/o signs of inflam arthrit and tophaceous dis"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/0647713f-d",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 35945 Calzada Durango, San María Elena de la Montaña, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 64
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1960-04-05"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S62.662P"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Gabriela Madrid"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(093) 537-2610"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/A10BB07",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Oral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 10.0 mg per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "A10BB07"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "glipizide"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Oral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/T45.93XS",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Poisoning by unspecified primarily systemic and hematological agent, assault, sequela"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "T45.93XS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Poisn by unsp prim sys and hematolog agent, assault, sequela"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/f29a9426-1",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 18135 Retorno Coahuila de Zaragoza, San Nelly los altos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 71
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1953-02-06"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I48.91"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Berta Molina"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(793) 457-2325"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/B01AA04"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/5424ac9c-9",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 41930 Foster Rapids, Brianberg, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 67
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1957-08-12"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/T57.2X2A"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Jose Miller"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(165) 591-6528"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/C01EB16",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Parenteral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 30.0 mg per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "C01EB16"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "ibuprofen"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Parenteral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/1ab680e2-b",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 2735 Avenida España, San Francisco los bajos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 62
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1962-11-30"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S82.154J"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Dolores Calvillo"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(628) 051-0351"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I63.311",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Cerebral infarction due to thrombosis of right middle cerebral artery"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I63.311"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cereb infrc due to thombos of right middle cerebral artery"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/A10BB12",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Oral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 2.0 mg per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "A10BB12"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "glimepiride"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Oral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/dfaaeab0-1",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 11551 Samantha Mews, Sosaville, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 61
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1963-10-29"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/T33.512D"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Brett Lane"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(001) 981-2383"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/D08AF01",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "D08AF01"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "nitrofural"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/J05AP01",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Oral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 1.0 g per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "J05AP01"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "ribavirin"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Oral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/M16.10",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Unilateral primary osteoarthritis, unspecified hip"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "M16.10"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Unilateral primary osteoarthritis, unspecified hip"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I63.40",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Cerebral infarction due to embolism of unspecified cerebral artery"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I63.40"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cerebral infarction due to embolism of unsp cerebral artery"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/B01AC06",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Oral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 1.0 tablet per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "B01AC06"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "acetylsalicylic acid"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Oral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/M80.041A",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Age-related osteoporosis with current pathological fracture, right hand, initial encounter for fracture"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "M80.041A"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Age-rel osteopor w current path fracture, right hand, init"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/M01AC02",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Parenteral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 20.0 mg per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "M01AC02"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "tenoxicam"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Parenteral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S51.021D",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Laceration with foreign body of right elbow, subsequent encounter"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S51.021D"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Laceration with foreign body of right elbow, subs encntr"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/865a15d8-7",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 8672 Cerrada Mauricio, Vieja Suiza, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 52
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1972-11-12"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/T34.532S"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Conchita Olvera"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(194) 799-3865"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E11.620",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Type 2 diabetes mellitus with diabetic dermatitis"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E11.620"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Type 2 diabetes mellitus with diabetic dermatitis"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I65.02",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Occlusion and stenosis of left vertebral artery"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I65.02"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Occlusion and stenosis of left vertebral artery"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S62.662P",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Nondisplaced fracture of distal phalanx of right middle finger, subsequent encounter for fracture with malunion"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S62.662P"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nondisp fx of dist phalanx of r mid fngr, 7thP"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/T81.599A",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Other complications of foreign body accidentally left in body following unspecified procedure, initial encounter"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "T81.599A"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oth comp of fb acc left in body fol unsp procedure, init"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E79.82",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Hereditary xanthinuria"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E79.82"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Hereditary xanthinuria"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/a11f9951-c",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 57506 Peatonal Llamas, San Mitzy los bajos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 52
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1972-08-07"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E11.3393"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Carlos Cantú"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(345) 122-2953"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/C09CA07"
+      }
+    ],
+    "https://synmed.org/hasHistoricalDiagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E02"
+      },
+      {
+        "@id": "https://synmed.org/diagnosis/E79.82"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/T82.310A",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Breakdown (mechanical) of aortic (bifurcation) graft (replacement), initial encounter"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "T82.310A"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Breakdown (mechanical) of aortic (bifurcation) graft, init"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/8fafdf28-5",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 1869 Andador Linares, San Bernabé de la Montaña, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 72
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1952-06-17"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S43.141A"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Daniel Bueno"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(182) 910-0529"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/3aed0b5a-4",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 33995 Ampliación Dávila, San Marcos de la Montaña, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 64
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1960-03-21"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E11.3591"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Elvira Valles"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(241) 426-7761"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/M01AC56"
+      }
+    ],
+    "https://synmed.org/hasHistoricalDiagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E02"
+      },
+      {
+        "@id": "https://synmed.org/diagnosis/E79.1"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/M01AC56",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "M01AC56"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "meloxicam, combinations"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/A04AD10",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "A04AD10"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "dronabinol"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/9b4de84f-9",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 8773 Calzada Quesada, San Wendolin los altos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 42
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1982-09-19"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E11.3549"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Roberto Báez"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(003) 042-0936"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/A10BB07"
+      }
+    ],
+    "https://synmed.org/hasHistoricalDiagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E02"
+      },
+      {
+        "@id": "https://synmed.org/diagnosis/E79.82"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/N06BX06",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "N06BX06"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "citicoline"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/T42.5X4A",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Poisoning by mixed antiepileptics, undetermined, initial encounter"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "T42.5X4A"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Poisoning by mixed antiepileptics, undetermined, init encntr"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/C09CA07",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Oral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 40.0 mg per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "C09CA07"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "telmisartan"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Oral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/a932607e-f",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 520 Suarez Fall, Port Paul, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 50
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1974-11-05"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/C00.3"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Jerry Bell"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(828) 948-8168"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/L04AX03"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/J01DD13",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Oral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 0.4 g per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "J01DD13"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "cefpodoxime"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Oral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I48.91",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Unspecified atrial fibrillation"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I48.91"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Unspecified atrial fibrillation"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/1eb20b82-d",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 73260 Nancy Forge, Jefferyport, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 57
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1967-03-18"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/C50.411"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Patrick Hull"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(757) 408-4686"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/G03AC06"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/513aa92a-8",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 19964 Louis Coves, East Maurice, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 83
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1941-04-04"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E11.620"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Robert Williams"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(729) 811-5019"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/C09CA07"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/A10BB08",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Oral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 60.0 mg per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "A10BB08"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "gliquidone"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Oral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/T43.601A",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Poisoning by unspecified psychostimulants, accidental (unintentional), initial encounter"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "T43.601A"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Poisoning by unsp psychostim, accidental, init"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S62.303B",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Unspecified fracture of third metacarpal bone, left hand, initial encounter for open fracture"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S62.303B"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Unsp fx third metacarpal bone, left hand, init for opn fx"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E11.3532",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, left eye"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E11.3532"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Type 2 diab w prolif diab rtnop w trctn dtch n-mcla, l eye"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S82.845B",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Nondisplaced bimalleolar fracture of left lower leg, initial encounter for open fracture type I or II"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S82.845B"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nondisp bimalleol fx l low leg, init for opn fx type I/2"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/A12BA30",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "A12BA30"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "potassium (different salts in combination)"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/7747949b-c",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 04516 Stanley Tunnel, Port Monica, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 42
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1982-01-08"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/A54.5"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Mark Thomas"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(323) 993-3132"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/J01DD13"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/b7ca47dc-4",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 418 Kathleen Isle, North Kellyberg, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 25
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1999-05-21"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/K51.00"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "John Hurst"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(259) 748-0023"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/A07EA06"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/S01XA20",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S01XA20"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "artificial tears and other indifferent preparations"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/c7b1d166-1",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 464 Calle Canadá, Vieja República Democrática Popular Lao, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 34
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1990-08-12"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S63.409A"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Yeni de la Rosa"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(026) 946-5573"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/376b3539-6",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 851 Privada Viera, Nueva Burundi, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 79
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1945-04-04"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/C84.97"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Genaro Cazares"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(575) 700-9521"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/H02AB06"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/d2a55d1c-3",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 97542 Ampliación Zimbabwe, Nueva Panamá, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 30
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1994-08-08"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I25.719"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Humberto Avilés"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(216) 584-9434"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/T57.2X2A",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Toxic effect of manganese and its compounds, intentional self-harm, initial encounter"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "T57.2X2A"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Toxic effect of manganese and its compounds, self-harm, init"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E11.3591",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, right eye"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E11.3591"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Type 2 diab with prolif diab rtnop without mclr edema, r eye"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S63.409A",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Traumatic rupture of unspecified ligament of unspecified finger at metacarpophalangeal and interphalangeal joint, initial encounter"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S63.409A"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Traum rupt of unsp ligmt of unsp finger at MCP/IP jt, init"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/C00.3",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Malignant neoplasm of upper lip, inner aspect"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "C00.3"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Malignant neoplasm of upper lip, inner aspect"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/D03BA03",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "D03BA03"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "bromelains"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/A10BD03",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "A10BD03"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "metformin and rosiglitazone"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/H02AB06",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Parenteral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 10.0 mg per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "H02AB06"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "prednisolone"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Parenteral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S52.615N",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Nondisplaced fracture of left ulna styloid process, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with nonunion"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S52.615N"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nondisp fx of l ulna styloid pro, 7thN"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/N03AB02",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Parenteral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 0.3 g per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "N03AB02"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "phenytoin"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Parenteral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I70.533",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Atherosclerosis of nonautologous biological bypass graft(s) of the right leg with ulceration of ankle"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I70.533"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Athscl nonaut bio bypass of the right leg w ulcer of ankle"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/b375a7a9-1",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 4971 Boulevard Norte Casares, Vieja Túnez, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 69
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1955-11-07"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/L02.531"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Miriam Terán"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(042) 384-3051"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S52.181P",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Other fracture of upper end of right radius, subsequent encounter for closed fracture with malunion"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S52.181P"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oth fx upper end of r radius, subs for clos fx w malunion"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/C04AE54",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "C04AE54"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "dihydroergocristine, combinations"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S52.559B",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Other extraarticular fracture of lower end of unspecified radius, initial encounter for open fracture type I or II"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S52.559B"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oth extrartic fx low end unsp rad, init for opn fx type I/2"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/Q15.9",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Congenital malformation of eye, unspecified"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Q15.9"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Congenital malformation of eye, unspecified"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/61b75c47-1",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 5104 Eje vial Tabasco, San María Eugenia los bajos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 52
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1972-08-17"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S56.413A"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Pamela Rivero"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(041) 112-8074"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I25.728",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Atherosclerosis of autologous artery coronary artery bypass graft(s) with other forms of angina pectoris"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I25.728"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Athscl autologous artery CABG w oth angina pectoris"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/f07d9452-5",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 96856 Andrea Turnpike, Brittanytown, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 70
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1954-05-21"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S82.191K"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Joseph Jones"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(001) 393-6758"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I25.119",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Atherosclerotic heart disease of native coronary artery with unspecified angina pectoris"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I25.119"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Athscl heart disease of native cor art w unsp ang pctrs"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E11.3553",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Type 2 diabetes mellitus with stable proliferative diabetic retinopathy, bilateral"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E11.3553"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Type 2 diabetes with stable prolif diabetic rtnop, bilateral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/db65c425-e",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 321 Calzada Montaño, Vieja Italia, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 70
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1953-12-09"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I63.40"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Inés Merino"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(464) 378-0822"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/N02BA51"
+      }
+    ],
+    "https://synmed.org/hasHistoricalDiagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I70.533"
+      },
+      {
+        "@id": "https://synmed.org/diagnosis/I25.119"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/a5e6a4b8-e",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 323 Diagonal Vela, San Olga de la Montaña, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 46
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1978-05-14"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S59.002S"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Dulce María Bonilla"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(005) 632-2151"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/A10BD16",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "A10BD16"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "metformin and canagliflozin"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/0d715a1a-2",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 968 Corredor Yucatán, Vieja Bulgaria, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 43
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1981-04-08"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S21.121A"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Genaro Uribe"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(213) 016-1215"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/D08AF01"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I63.239",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Cerebral infarction due to unspecified occlusion or stenosis of unspecified carotid artery"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I63.239"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cereb infrc due to unsp occls or stenos of unsp crtd artery"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/69fb6dea-d",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 2130 Little Green, North Brandonview, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 11
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "2013-07-02"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E11.3541"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Stephen Moore"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(001) 505-7131"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/A10BD03"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E11.40",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Type 2 diabetes mellitus with diabetic neuropathy, unspecified"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E11.40"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Type 2 diabetes mellitus with diabetic neuropathy, unsp"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/58649347-a",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 54700 Deanna Valley, Lake Angela, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 46
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1978-05-23"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/T43.601A"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Jonathan Russell"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(001) 295-5587"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/N03AB02"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/b90b221f-5",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 01174 Eje vial Brasil, Vieja Yemen, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 66
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1958-03-12"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/Q35.9"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Porfirio Borrego"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(879) 476-1699"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S52.201C",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Unspecified fracture of shaft of right ulna, initial encounter for open fracture type IIIA, IIIB, or IIIC"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S52.201C"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Unsp fx shaft of right ulna, init for opn fx type 3A/B/C"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/A14AB01",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Parenteral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 2.0 mg per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "A14AB01"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "nandrolone"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Parenteral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/D04AA13",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "D04AA13"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "dimetindene"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/7fc08c56-3",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 7663 Olson Crossroad, Port Allenberg, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 25
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1999-02-17"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I63.133"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Patrick Castillo"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(776) 226-1172"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/N06BX06"
+      }
+    ],
+    "https://synmed.org/hasHistoricalDiagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I70.363"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S52.366M",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Nondisplaced segmental fracture of shaft of radius, unspecified arm, subsequent encounter for open fracture type I or II with nonunion"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S52.366M"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nondisp seg fx shaft of rad, unsp arm, 7thM"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E11.3549",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, unspecified eye"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E11.3549"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Type 2 diab with prolif diab rtnop with comb detach, unsp"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E11.319",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Type 2 diabetes mellitus with unspecified diabetic retinopathy without macular edema"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E11.319"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Type 2 diabetes w unsp diabetic rtnop w/o macular edema"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/bed726a7-f",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 336 Christopher Valleys, Port Tylerside, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 46
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1978-08-06"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E11.311"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Derrick Coleman"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(147) 624-9573"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/S01BC10"
+      }
+    ],
+    "https://synmed.org/hasHistoricalDiagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E02"
+      },
+      {
+        "@id": "https://synmed.org/diagnosis/E79.9"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/14a59dc1-d",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 2034 Allen Flats, Roberthaven, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 66
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1958-02-27"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S02.80XB"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "William Owens"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(001) 223-4493"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/C04AE54"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/0d4b5f5e-b",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 8385 Frank Course, South Danielshire, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 80
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1944-08-21"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E11.3553"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Jeremy Douglas"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(891) 334-7560"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/A10BD09"
+      }
+    ],
+    "https://synmed.org/hasHistoricalDiagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E02"
+      },
+      {
+        "@id": "https://synmed.org/diagnosis/E79.82"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/9f5f0fd3-b",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 93752 Wayne Rest, East Yvette, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 82
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1941-12-11"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/K76.2"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Mark Macdonald"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(438) 356-9960"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S82.154J",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Nondisplaced fracture of right tibial tuberosity, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with delayed healing"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S82.154J"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nondisp fx of r tibial tuberosity, 7thJ"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/A07EA06",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Oral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 9.0 mg per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "A07EA06"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "budesonide"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Oral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/16c7e190-2",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 8927 Continuación Durango, Vieja Congo, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 78
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1946-09-03"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I63.6"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Amelia Loya"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(122) 737-8916"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/B01AC05"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/C50.919",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Malignant neoplasm of unspecified site of unspecified female breast"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "C50.919"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Malignant neoplasm of unsp site of unspecified female breast"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/Q67.1",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Congenital compression facies"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Q67.1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Congenital compression facies"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/1e1c3fd2-5",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 0329 Ampliación Norte del Valle, San Francisco los bajos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "2024-08-27"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/H04.533"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cornelio Negrete"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(110) 253-4245"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/S01XA20"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I70.363",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities with gangrene, bilateral legs"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I70.363"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Athscl unsp type bypass of the extrm w gangrene, bi legs"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/055afea4-4",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 8395 Amber Brooks, Lake Stephanie, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 60
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1964-09-30"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/T45.93XS"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Joseph Hudson"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(501) 389-9413"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/A12BA30"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/198ac36d-6",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 9583 Taylor Islands, East Cameron, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 77
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1947-11-09"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/M16.10"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Gregory Lopez"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(278) 619-1171"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/M01AH06"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/M1A.38X1",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Chronic gout due to renal impairment, vertebrae, with tophus (tophi)"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "M1A.38X1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Chronic gout due to renal impairment, vertebrae, with tophus"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/c2820341-0",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 9608 Dominic Underpass, South Cynthia, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 24
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "2000-01-22"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E11.610"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Kyle Valdez"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(184) 053-9216"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/A10BB12"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S52.182F",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Other fracture of upper end of left radius, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with routine healing"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S52.182F"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oth fx upr end l rad, 7thF"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S59.002S",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Unspecified physeal fracture of lower end of ulna, left arm, sequela"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S59.002S"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Unsp physeal fx lower end of ulna, left arm, sequela"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E11.3412",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, left eye"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E11.3412"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Type 2 diab with severe nonp rtnop with macular edema, l eye"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/74c7a3ce-b",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 703 Brady Ridges, South Catherineburgh, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 66
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1958-06-08"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/M80.041A"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Jose Williams"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(150) 170-9960"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/A12AA08"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/1d57bdbd-c",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 194 Andador Sur Bétancourt, Nueva República Árabe Siria, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 60
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1964-06-03"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S51.021D"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Vanesa Romero"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(053) 621-4780"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/D03BA03"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I63.09",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Cerebral infarction due to thrombosis of other precerebral artery"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I63.09"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cerebral infarction due to thrombosis of precerebral artery"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/ef03b16a-5",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 814 Cerrada Adame, San Catalina los bajos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 46
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1978-08-02"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S66.595S"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Catalina Maestas"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(021) 790-5479"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/H04.533",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Neonatal obstruction of bilateral nasolacrimal duct"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "H04.533"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Neonatal obstruction of bilateral nasolacrimal duct"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/8b00772e-a",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 58792 Corredor Sur Briones, Nueva Saint Kitts y Nevis, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 56
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1968-10-07"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S12.120A"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Alfonso Casanova"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(100) 725-6360"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/6bfd34c1-0",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 4321 Corey Circles, Fordmouth, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 70
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1954-02-22"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/T50.8X3A"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "William Wright"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(414) 703-8501"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/A03BA01"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/1c8bcdea-b",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 58028 Diagonal Serrano, San Dulce María los altos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 54
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1970-01-28"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I25.768"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Martín Mejía"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(196) 564-7650"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S06.821A",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Injury of left internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness of 30 minutes or less, initial encounter"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S06.821A"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Inj l int carotid, intcr w LOC of 30 minutes or less, init"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/T50.8X3A",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Poisoning by diagnostic agents, assault, initial encounter"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "T50.8X3A"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Poisoning by diagnostic agents, assault, initial encounter"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S62.644A",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Nondisplaced fracture of proximal phalanx of right ring finger, initial encounter for closed fracture"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S62.644A"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nondisp fx of proximal phalanx of right ring finger, init"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I70.733",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Atherosclerosis of other type of bypass graft(s) of the right leg with ulceration of ankle"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I70.733"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Athscl type of bypass of the right leg w ulceration of ankle"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/9dbfcb65-9",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 2242 Frey Burg, Amberside, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 23
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "2001-01-05"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S86.111S"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Kevin Johnson"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(001) 486-2289"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/S01BC10",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S01BC10"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "nepafenac"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/M05.069",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Felty's syndrome, unspecified knee"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "M05.069"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Felty's syndrome, unspecified knee"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/A10BJ05",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Parenteral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 0.16 mg per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "A10BJ05"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "dulaglutide"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Parenteral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/F50.810",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Binge eating disorder, mild"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "F50.810"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Binge eating disorder, mild"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E79.9",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Disorder of purine and pyrimidine metabolism, unspecified"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E79.9"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Disorder of purine and pyrimidine metabolism, unspecified"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/c2688b63-7",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 64428 Malone Pass, Romeroshire, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 9
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "2015-05-19"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I50.41"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Charles Walker"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(867) 407-0802"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E11.649",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Type 2 diabetes mellitus with hypoglycemia without coma"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E11.649"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Type 2 diabetes mellitus with hypoglycemia without coma"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/f564f0cd-3",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 86691 Pasaje Rocha, San Augusto los bajos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 79
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1945-06-15"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/T82.310A"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Gregorio Figueroa"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(472) 668-8510"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/T34.532S",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Frostbite with tissue necrosis of left finger(s), sequela"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "T34.532S"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Frostbite with tissue necrosis of left finger(s), sequela"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/T22.712D",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Corrosion of third degree of left forearm, subsequent encounter"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "T22.712D"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Corrosion of third degree of left forearm, subs encntr"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/3d248ecf-9",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 6829 Privada Norte Alva, San Ricardo de la Montaña, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 56
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1967-12-24"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/C37"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Karina del Valle"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(637) 638-2722"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/729b98bb-b",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 72567 Corredor Rodríquez, Vieja Djibouti, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 43
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1981-05-03"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/T20.411S"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Amador Fuentes"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(318) 718-4186"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/D08AJ59"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/hasHistoricalDiagnosis",
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://schema.org/Patient"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://schema.org/MedicalCondition"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E11.3542",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, left eye"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E11.3542"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Type 2 diab with prolif diab rtnop with comb detach, l eye"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I25.719",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Atherosclerosis of autologous vein coronary artery bypass graft(s) with unspecified angina pectoris"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I25.719"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Athscl autologous vein CABG w unsp angina pectoris"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/F16.280",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Hallucinogen dependence with hallucinogen-induced anxiety disorder"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "F16.280"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Hallucinogen dependence w anxiety disorder"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/3b3fd27c-8",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 005 Kelly Gardens, Jerrymouth, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 61
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1963-07-26"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I63.09"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Jacob Ryan"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(242) 890-1037"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/B01AC06"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/b0926a61-6",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 796 Retorno Ruiz, Nueva Iraq, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 46
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1978-05-29"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S53.115D"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Armando Romo"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(192) 067-7813"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/B01AC05",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Oral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 0.5 g per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "B01AC05"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "ticlopidine"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Oral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E79.1",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Lesch-Nyhan syndrome"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E79.1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Lesch-Nyhan syndrome"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/956db6da-3",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 76306 Robert Inlet, Yorkbury, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 50
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1974-07-24"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/T26.91XS"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Michael Robbins"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(356) 613-8737"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/S01XA20"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/Q35.9",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Cleft palate, unspecified"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Q35.9"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cleft palate, unspecified"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/A03BA01",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Oral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 1.5 mg per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "A03BA01"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "atropine"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Oral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/ff81bef6-7",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 187 Tamara Pike, Wrightstad, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 53
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1970-12-10"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S92.232K"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Thomas Wheeler"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(001) 338-5065"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/a4f7dd90-e",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 9991 Andador Laboy, Nueva Timor-Leste, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 50
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1973-12-15"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/T22.712D"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Clara Apodaca"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(160) 100-2693"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/D04AA13"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/a39f3a9b-5",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 3120 Viaducto Norte Hernandes, San Abril los altos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 27
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1997-09-17"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E11.3412"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Gerónimo Feliciano"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(145) 632-0787"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/A10BD16"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/6a7e6952-a",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 3104 Eje vial Tlaxcala, Vieja Israel, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 40
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1983-12-29"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/Q15.9"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Fernando Iglesias"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(791) 567-5937"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I63.549",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Cerebral infarction due to unspecified occlusion or stenosis of unspecified cerebellar artery"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I63.549"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cereb infrc due to unsp occls or stenos of unsp cereblr art"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S52.361R",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Displaced segmental fracture of shaft of radius, right arm, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with malunion"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S52.361R"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Displ seg fx shaft of rad, r arm, 7thR"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/6f82a62f-f",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 99649 Retorno Norte Mena, Vieja Nicaragua, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 50
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1974-10-01"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S56.409S"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Pablo Barrera"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(562) 535-1171"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/hasAdministrationRoute",
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://schema.org/Medication"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://schema.org/AdministrationRoute"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/5e27c912-1",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 67416 Corredor Japón, San Samuel los altos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 29
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1995-08-04"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I63.311"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "María Luisa Meza"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(077) 387-8325"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/N06BX13"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/53ff4ad7-f",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 707 Cerrada Norte Lemus, San Emilio los altos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 44
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1980-07-23"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S52.189F"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Wendolin Valdez"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(522) 417-1757"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/9b8a2d19-9",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 729 Carlos Union, Obrienport, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 40
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1984-11-05"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E11.3542"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Jason Herrera"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(216) 223-4366"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/A10AC01"
+      }
+    ],
+    "https://synmed.org/hasHistoricalDiagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E02"
+      },
+      {
+        "@id": "https://synmed.org/diagnosis/E79.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/route/Parenteral",
+    "@type": [
+      "https://synmed.org/AdministrationRoute"
+    ],
+    "https://synmed.org/description": [
+      {
+        "@value": "Medication administered by injection or infusion"
+      }
+    ],
+    "https://synmed.org/name": [
+      {
+        "@value": "Parenteral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S92.232K",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Displaced fracture of intermediate cuneiform of left foot, subsequent encounter for fracture with nonunion"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S92.232K"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Disp fx of intermed cuneiform of l ft, 7thK"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S62.349B",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Nondisplaced fracture of base of unspecified metacarpal bone, initial encounter for open fracture"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S62.349B"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nondisp fx of base of unsp metacarpal bone, init for opn fx"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S43.141A",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Inferior dislocation of right acromioclavicular joint, initial encounter"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S43.141A"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Inferior dislocation of right acromioclavicular joint, init"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/e1c50595-0",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 8991 Ernest Light, Crystalmouth, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 44
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1980-10-06"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/M12.561"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Victor Spencer"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(457) 646-1791"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I25.768",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Atherosclerosis of bypass graft of coronary artery of transplanted heart with other forms of angina pectoris"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I25.768"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Athscl bypass of cor art of txplt heart w oth ang pctrs"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/T20.411S",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Corrosion of unspecified degree of right ear [any part, except ear drum], sequela"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "T20.411S"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Corrosion of unspecified degree of right ear, sequela"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/6b390923-5",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 3365 Viaducto Yemen, Vieja Timor-Leste, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 42
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1982-05-01"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S62.303B"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Marisol Báez"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(135) 236-6911"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/C05BA04",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "C05BA04"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "pentosan polysulfate sodium"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S02.80XB",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Fracture of other specified skull and facial bones, unspecified side, initial encounter for open fracture"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S02.80XB"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Fx oth skull and facial bones, unspecified side, 7thB"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I63.22",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Cerebral infarction due to unspecified occlusion or stenosis of basilar artery"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I63.22"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cereb infrc due to unsp occls or stenosis of basilar artery"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/cf60af7a-1",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 04844 Rodriguez Shore, Jakeside, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 61
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1963-10-27"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E11.319"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Edward Marshall"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(851) 606-7498"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/A10BB31"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S52.189F",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Other fracture of upper end of unspecified radius, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with routine healing"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S52.189F"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oth fx upr end unsp rad, 7thF"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/9843963c-2",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 744 Merritt Cliff, Santosland, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 2
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "2022-11-13"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I63.239"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Christopher Lee"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(177) 823-7872"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/C04AE54"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S21.121A",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Laceration with foreign body of right front wall of thorax without penetration into thoracic cavity, initial encounter"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S21.121A"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Lac w fb of r frnt wl of thorax w/o penet thor cavity, init"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E11.3393",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, bilateral"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E11.3393"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Type 2 diab with mod nonp rtnop without macular edema, bi"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/Q21.10",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Atrial septal defect, unspecified"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Q21.10"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Atrial septal defect, unspecified"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/V03AB09",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "V03AB09"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "dimercaprol"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/A10AC01",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Parenteral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 40.0 U per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "A10AC01"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "insulin (human)"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Parenteral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/B01AA04",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Oral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 3.0 mg per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "B01AA04"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "phenprocoumon"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Oral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I25.812",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Atherosclerosis of bypass graft of coronary artery of transplanted heart without angina pectoris"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I25.812"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Athscl bypass of cor art of transplanted heart w/o ang pctrs"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/A10BD09",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "A10BD09"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "pioglitazone and alogliptin"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/bc2ff2d4-f",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 7264 Kennedy Streets, Brittanyport, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 39
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1985-11-12"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S65.991S"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Jonathan Henson"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(439) 445-6214"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/f82b18fc-b",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 42805 Calzada Guzmán, San Ángela los bajos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 40
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1984-06-29"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I25.6"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "María Olvera"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(760) 616-4128"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/K51.00",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Ulcerative (chronic) pancolitis without complications"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "K51.00"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ulcerative (chronic) pancolitis without complications"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/N06BX13",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Oral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 0.9 g per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "N06BX13"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "idebenone"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Oral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/P04.14",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Newborn affected by maternal use of opiates"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "P04.14"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Newborn affected by maternal use of opiates"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/b9aeda00-1",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 65620 James Courts, South Zachary, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 42
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1982-03-12"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/N89.3"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ernest Case"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(143) 080-7370"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S56.409S",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Unspecified injury of extensor muscle, fascia and tendon of unspecified finger at forearm level, sequela"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S56.409S"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Unsp inj extn musc/fasc/tend unsp finger at forarm lv, sqla"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/N02BA51",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "N02BA51"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "acetylsalicylic acid, combinations excl. psycholeptics"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/8ada734b-3",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 229 Linda Cove, Tuckerhaven, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 35
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1989-05-17"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/Q21.10"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Brandon Scott"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(001) 813-2145"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/C01EB16"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I63.10",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Cerebral infarction due to embolism of unspecified precerebral artery"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I63.10"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cerebral infarction due to embolism of unsp precerb artery"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/684da962-7",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 68288 Viaducto Villegas, San Débora los altos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 71
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1953-06-22"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/P04.14"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Genaro Estrada"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(239) 928-8011"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/J05AP01"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/45da346e-f",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 3875 Diagonal Norte Velázquez, San Darío los altos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 65
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1959-03-02"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/Q67.1"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Úrsula Rascón"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(242) 591-7203"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/S56.196S",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Other injury of flexor muscle, fascia and tendon of left ring finger at forearm level, sequela"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "S56.196S"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Inj flexor musc/fasc/tend l rng fngr at forarm lv, sequela"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/d6d5d899-b",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 69005 Brittany Villages, Port Matthewside, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 30
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1994-11-11"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/M80.839P"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Michael Smith"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(192) 225-9308"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/A14AB01"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/I50.41",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Acute combined systolic (congestive) and diastolic (congestive) heart failure"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "I50.41"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Acute combined systolic and diastolic (congestive) hrt fail"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/C50.411",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Malignant neoplasm of upper-outer quadrant of right female breast"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "C50.411"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Malig neoplm of upper-outer quadrant of right female breast"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E79.2",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Myoadenylate deaminase deficiency"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E79.2"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Myoadenylate deaminase deficiency"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/1f768d32-8",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 350 Pasaje Nayarit, Nueva Sri Lanka, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 30
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1994-06-29"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S52.615N"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Vicente Mata"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(055) 355-1513"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/f776aadf-2",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 5016 Rodriguez Village, South Jamesborough, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 50
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1974-05-21"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I63.549"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Jeffrey Davis"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(536) 895-4966"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/C05BA04"
+      }
+    ],
+    "https://synmed.org/hasHistoricalDiagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I65.02"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/04d9c1cd-d",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 95786 James Rest, South Amandafurt, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 77
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1947-03-22"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S62.349B"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Timothy Kirk"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(238) 802-4684"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/M01AH06",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Oral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 0.1 g per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "M01AH06"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "lumiracoxib"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Oral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/db4c3239-2",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 7014 Avenida Dominicana, San Samuel los bajos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 62
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1962-10-26"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/I67.2"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Sessa Ojeda"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(989) 869-1609"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/B01AB01"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/route/Oral",
+    "@type": [
+      "https://synmed.org/AdministrationRoute"
+    ],
+    "https://synmed.org/description": [
+      {
+        "@value": "Medication taken through the mouth"
+      }
+    ],
+    "https://synmed.org/name": [
+      {
+        "@value": "Oral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/a3a6e13d-8",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 124 Cerrada Apodaca, Vieja Sierra Leona, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 82
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1942-09-26"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E11.3532"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Héctor Rivera"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(993) 948-4372"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/A10BB08"
+      }
+    ],
+    "https://synmed.org/hasHistoricalDiagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E02"
+      },
+      {
+        "@id": "https://synmed.org/diagnosis/E79.2"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/d4a95f13-8",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 418 Jason Stream, New Jennifer, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 70
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1954-03-11"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E11.40"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Taylor Logan"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(819) 702-5044"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/J01DH03"
+      }
+    ],
+    "https://synmed.org/hasHistoricalDiagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/E02"
+      },
+      {
+        "@id": "https://synmed.org/diagnosis/E79.1"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/1413cf95-2",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 8004 Anne Landing, East Leah, United States"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 74
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1950-05-21"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/S52.182F"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "James Nichols"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(527) 902-1580"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/diagnosis/E11.311",
+    "@type": [
+      "https://schema.org/MedicalCondition"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Type 2 diabetes mellitus with unspecified diabetic retinopathy with macular edema"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "E11.311"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Type 2 diabetes w unsp diabetic retinopathy w macular edema"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/3ac4430c-c",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 2651 Pasaje Nuevo León, San Mario los altos, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 46
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1978-11-13"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/F16.280"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ofelia Otero"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(455) 020-1686"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/medication/B01AE03",
+    "@type": [
+      "https://schema.org/Drug"
+    ],
+    "https://schema.org/administrationRoute": [
+      {
+        "@value": "Parenteral"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Dosage: 0.2 g per day"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "B01AE03"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "argatroban"
+      }
+    ],
+    "https://synmed.org/hasAdministrationRoute": [
+      {
+        "@id": "https://synmed.org/route/Parenteral"
+      }
+    ]
+  },
+  {
+    "@id": "https://synmed.org/patient/c84f736a-e",
+    "@type": [
+      "https://schema.org/Patient"
+    ],
+    "https://schema.org/address": [
+      {
+        "@value": " 5531 Andador Sur Alcaraz, Vieja Irlanda, Mexico"
+      }
+    ],
+    "https://schema.org/age": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 66
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@value": "1958-03-02"
+      }
+    ],
+    "https://schema.org/diagnosis": [
+      {
+        "@id": "https://synmed.org/diagnosis/F50.810"
+      }
+    ],
+    "https://schema.org/gender": [
+      {
+        "@value": "Female"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ernesto Olmos"
+      }
+    ],
+    "https://schema.org/telephone": [
+      {
+        "@value": "(583) 659-6369"
+      }
+    ],
+    "https://schema.org/usesDrug": [
+      {
+        "@id": "https://synmed.org/medication/A04AD10"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1844 @@
+@prefix base: <https://synmed.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+base:hasAdministrationRoute rdfs:domain schema:Medication ;
+    rdfs:range schema:AdministrationRoute .
+
+base:hasHistoricalDiagnosis rdfs:domain schema:Patient ;
+    rdfs:range schema:MedicalCondition .
+
+<https://synmed.org/patient/03f839f1-4> a schema:Person ;
+    schema:address " 160 Andador Alonso, San Jonás los bajos, Mexico" ;
+    schema:age 73 ;
+    schema:birthDate "1951-11-15" ;
+    schema:diagnosis <https://synmed.org/diagnosis/H02.123> ;
+    schema:gender "Male" ;
+    schema:name "Alma Hernández" ;
+    schema:telephone "(827) 805-3408" .
+
+<https://synmed.org/patient/05cec7c0-a> a schema:Person ;
+    schema:address " 018 Arias Stravenue, Fordmouth, United States" ;
+    schema:age 57 ;
+    schema:birthDate "1967-10-09" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I20.1> ;
+    schema:gender "Female" ;
+    schema:name "Richard Bennett" ;
+    schema:telephone "(784) 922-2448" ;
+    schema:usesDrug <https://synmed.org/medication/C07AB07> .
+
+<https://synmed.org/patient/066dfb35-f> a schema:Person ;
+    schema:address " 9484 Davidson Ways, Smithville, United States" ;
+    schema:age 38 ;
+    schema:birthDate "1986-08-31" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S00.91XA> ;
+    schema:gender "Female" ;
+    schema:name "Chad Watts" ;
+    schema:telephone "(001) 205-5155" ;
+    schema:usesDrug <https://synmed.org/medication/M01AB05> .
+
+<https://synmed.org/patient/07d32a7a-2> a schema:Person ;
+    schema:address " 8295 Andador Sur Angulo, San Karla de la Montaña, Mexico" ;
+    schema:age 44 ;
+    schema:birthDate "1980-02-01" ;
+    schema:diagnosis <https://synmed.org/diagnosis/T86.30> ;
+    schema:gender "Female" ;
+    schema:name "María Elena de la Torre" ;
+    schema:telephone "(935) 375-4173" ;
+    schema:usesDrug <https://synmed.org/medication/H02AB07> .
+
+<https://synmed.org/patient/087ad57e-0> a schema:Person ;
+    schema:address " 4099 Richard Cape, West Sydney, United States" ;
+    schema:age 64 ;
+    schema:birthDate "1959-12-04" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.439> ;
+    schema:gender "Female" ;
+    schema:name "Taylor Hall" ;
+    schema:telephone "(946) 506-0088" ;
+    schema:usesDrug <https://synmed.org/medication/C10BX06> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.21> .
+
+<https://synmed.org/patient/08e62fc9-1> a schema:Person ;
+    schema:address " 5781 Pasaje Norte Baeza, San Leonardo de la Montaña, Mexico" ;
+    schema:age 44 ;
+    schema:birthDate "1980-11-01" ;
+    schema:diagnosis <https://synmed.org/diagnosis/C92.21> ;
+    schema:gender "Female" ;
+    schema:name "Jesús Montañez" ;
+    schema:telephone "(026) 599-0253" .
+
+<https://synmed.org/patient/09bad948-e> a schema:Person ;
+    schema:address " 9176 Green Way, Banksview, United States" ;
+    schema:age 19 ;
+    schema:birthDate "2005-01-07" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S82.461K> ;
+    schema:gender "Male" ;
+    schema:name "Brian Burke" ;
+    schema:telephone "(603) 436-4222" ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/S93.302A> .
+
+<https://synmed.org/patient/0a9c652f-f> a schema:Person ;
+    schema:address " 9563 Viaducto Nueva Zelandia, San Isabela los altos, Mexico" ;
+    schema:age 89 ;
+    schema:birthDate "1935-07-29" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S21.419A> ;
+    schema:gender "Female" ;
+    schema:name "Nadia Colón" ;
+    schema:telephone "(302) 526-2406" .
+
+<https://synmed.org/patient/1160d77b-7> a schema:Person ;
+    schema:address " 2742 Circunvalación Durango, Nueva Marruecos, Mexico" ;
+    schema:age 0 ;
+    schema:birthDate "2024-04-14" ;
+    schema:diagnosis <https://synmed.org/diagnosis/D37.04> ;
+    schema:gender "Male" ;
+    schema:name "Laura Gómez" ;
+    schema:telephone "(332) 578-5484" .
+
+<https://synmed.org/patient/1260aa62-d> a schema:Person ;
+    schema:address " 08120 Calzada Márquez, Nueva Bolivia, Mexico" ;
+    schema:age 27 ;
+    schema:birthDate "1997-04-12" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I82.462> ;
+    schema:gender "Female" ;
+    schema:name "Socorro de la Fuente" ;
+    schema:telephone "(255) 967-7673" ;
+    schema:usesDrug <https://synmed.org/medication/C10AX14> .
+
+<https://synmed.org/patient/1a00a635-d> a schema:Person ;
+    schema:address " 561 Cervantes Hill, Lake Danielville, United States" ;
+    schema:age 21 ;
+    schema:birthDate "2003-02-10" ;
+    schema:diagnosis <https://synmed.org/diagnosis/T79.5XXS> ;
+    schema:gender "Male" ;
+    schema:name "Andrew Evans" ;
+    schema:telephone "(547) 919-1882" ;
+    schema:usesDrug <https://synmed.org/medication/B03XA03> .
+
+<https://synmed.org/patient/1a08558c-3> a schema:Person ;
+    schema:address " 2225 Corredor San Luis Potosí, Nueva Suecia, Mexico" ;
+    schema:age 69 ;
+    schema:birthDate "1955-08-07" ;
+    schema:diagnosis <https://synmed.org/diagnosis/L97.819> ;
+    schema:gender "Male" ;
+    schema:name "Ofelia Leal" ;
+    schema:telephone "(311) 871-8981" ;
+    schema:usesDrug <https://synmed.org/medication/D06AX04> .
+
+<https://synmed.org/patient/1c58b0c8-0> a schema:Person ;
+    schema:address " 048 Ampliación Vera, San Daniela los bajos, Mexico" ;
+    schema:age 73 ;
+    schema:birthDate "1951-10-11" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S62.348G> ;
+    schema:gender "Male" ;
+    schema:name "Amelia Saiz" ;
+    schema:telephone "(367) 712-9702" .
+
+<https://synmed.org/patient/1f71c933-b> a schema:Person ;
+    schema:address " 31471 Corredor Quintana Roo, San Germán los altos, Mexico" ;
+    schema:age 64 ;
+    schema:birthDate "1960-10-14" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S68.611D> ;
+    schema:gender "Male" ;
+    schema:name "Vicente Tafoya" ;
+    schema:telephone "(471) 639-9388" .
+
+<https://synmed.org/patient/1fe6b834-f> a schema:Person ;
+    schema:address " 6546 Stephanie Divide, Erinburgh, United States" ;
+    schema:age 75 ;
+    schema:birthDate "1949-09-05" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S50.10XA> ;
+    schema:gender "Male" ;
+    schema:name "Chad Blanchard" ;
+    schema:telephone "(135) 297-9677" .
+
+<https://synmed.org/patient/228f8844-6> a schema:Person ;
+    schema:address " 5896 Pamela Flats, Kaylafort, United States" ;
+    schema:age 5 ;
+    schema:birthDate "2019-04-09" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S59.021A> ;
+    schema:gender "Male" ;
+    schema:name "Colin Kelley" ;
+    schema:telephone "(152) 552-2600" .
+
+<https://synmed.org/patient/24e1f537-0> a schema:Person ;
+    schema:address " 41215 Heath Canyon, Christinaview, United States" ;
+    schema:age 70 ;
+    schema:birthDate "1954-09-25" ;
+    schema:diagnosis <https://synmed.org/diagnosis/T83.010S> ;
+    schema:gender "Male" ;
+    schema:name "Collin Johnson" ;
+    schema:telephone "(503) 918-6915" .
+
+<https://synmed.org/patient/28c6d65b-5> a schema:Person ;
+    schema:address " 610 Ampliación Togo, Nueva Venezuela, Mexico" ;
+    schema:age 51 ;
+    schema:birthDate "1973-01-17" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S31.623D> ;
+    schema:gender "Male" ;
+    schema:name "Cornelio Sánchez" ;
+    schema:telephone "(165) 613-3409" .
+
+<https://synmed.org/patient/35018712-7> a schema:Person ;
+    schema:address " 8354 Privada Argentina, Nueva Islas Salomón, Mexico" ;
+    schema:age 32 ;
+    schema:birthDate "1992-10-23" ;
+    schema:diagnosis <https://synmed.org/diagnosis/K29.21> ;
+    schema:gender "Male" ;
+    schema:name "Marcela Vera" ;
+    schema:telephone "(230) 732-3939" ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/K21.00> .
+
+<https://synmed.org/patient/357893f7-d> a schema:Person ;
+    schema:address " 37455 Kimberly Prairie, Lake Paul, United States" ;
+    schema:age 30 ;
+    schema:birthDate "1994-07-29" ;
+    schema:diagnosis <https://synmed.org/diagnosis/T22.359S> ;
+    schema:gender "Male" ;
+    schema:name "Randy Walker" ;
+    schema:telephone "(128) 038-7960" .
+
+<https://synmed.org/patient/36fe6182-a> a schema:Person ;
+    schema:address " 5104 Eje vial Samoa, Vieja Pakistán, Mexico" ;
+    schema:age 81 ;
+    schema:birthDate "1943-03-22" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S59.019S> ;
+    schema:gender "Female" ;
+    schema:name "Rebeca Alemán" ;
+    schema:telephone "(195) 494-3596" .
+
+<https://synmed.org/patient/39c96886-4> a schema:Person ;
+    schema:address " 9256 Boulevard Países Bajos, Vieja Mongolia, Mexico" ;
+    schema:age 43 ;
+    schema:birthDate "1981-03-18" ;
+    schema:diagnosis <https://synmed.org/diagnosis/C34.90> ;
+    schema:gender "Female" ;
+    schema:name "Mateo Campos" ;
+    schema:telephone "(142) 215-9006" ;
+    schema:usesDrug <https://synmed.org/medication/L01XD01> .
+
+<https://synmed.org/patient/3a0b991f-7> a schema:Person ;
+    schema:address " 1260 Anderson Harbor, Dianestad, United States" ;
+    schema:age 55 ;
+    schema:birthDate "1969-06-21" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I25.119> ;
+    schema:gender "Male" ;
+    schema:name "William Harris" ;
+    schema:telephone "(970) 425-1711" ;
+    schema:usesDrug <https://synmed.org/medication/B01AF02> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I21.9> .
+
+<https://synmed.org/patient/3fda32c3-2> a schema:Person ;
+    schema:address " 2690 Richards Coves, Port Jennifer, United States" ;
+    schema:age 79 ;
+    schema:birthDate "1944-12-15" ;
+    schema:diagnosis <https://synmed.org/diagnosis/E11.22> ;
+    schema:gender "Female" ;
+    schema:name "Larry Burch" ;
+    schema:telephone "(784) 859-0440" ;
+    schema:usesDrug <https://synmed.org/medication/H02AB06> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/E02>,
+        <https://synmed.org/diagnosis/E79.2> .
+
+<https://synmed.org/patient/463ff8c5-2> a schema:Person ;
+    schema:address " 61355 Henderson Orchard, Solomonmouth, United States" ;
+    schema:age 50 ;
+    schema:birthDate "1974-08-29" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.412> ;
+    schema:gender "Female" ;
+    schema:name "Jesse Archer" ;
+    schema:telephone "(568) 878-2547" ;
+    schema:usesDrug <https://synmed.org/medication/C10AX09> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.29> .
+
+<https://synmed.org/patient/47ef4020-c> a schema:Person ;
+    schema:address " 8157 Diagonal Chipre, San Delia los bajos, Mexico" ;
+    schema:age 46 ;
+    schema:birthDate "1978-04-25" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S33.39XD> ;
+    schema:gender "Male" ;
+    schema:name "Blanca Cordero" ;
+    schema:telephone "(733) 157-9987" .
+
+<https://synmed.org/patient/4ad306c9-6> a schema:Person ;
+    schema:address " 14514 Circuito Norte Segovia, San Abraham de la Montaña, Mexico" ;
+    schema:age 49 ;
+    schema:birthDate "1975-07-25" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S74.92XA> ;
+    schema:gender "Female" ;
+    schema:name "Adalberto Alvarez" ;
+    schema:telephone "(428) 096-8396" .
+
+<https://synmed.org/patient/4d630300-e> a schema:Person ;
+    schema:address " 42467 Eje vial Luxemburgo, Vieja Grecia, Mexico" ;
+    schema:age 83 ;
+    schema:birthDate "1941-10-26" ;
+    schema:diagnosis <https://synmed.org/diagnosis/Q95.3> ;
+    schema:gender "Male" ;
+    schema:name "Isabel Guzmán" ;
+    schema:telephone "(184) 467-2511" .
+
+<https://synmed.org/patient/507c0817-0> a schema:Person ;
+    schema:address " 9084 Parker Course, West Brianside, United States" ;
+    schema:age 5 ;
+    schema:birthDate "2019-02-08" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.333> ;
+    schema:gender "Female" ;
+    schema:name "Connor Roberts" ;
+    schema:telephone "(784) 314-8010" ;
+    schema:usesDrug <https://synmed.org/medication/B01AC06> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.03> .
+
+<https://synmed.org/patient/5146cd4d-e> a schema:Person ;
+    schema:address " 740 Boulevard Liechtenstein, San Irene los bajos, Mexico" ;
+    schema:age 52 ;
+    schema:birthDate "1972-03-16" ;
+    schema:diagnosis <https://synmed.org/diagnosis/C50.522> ;
+    schema:gender "Male" ;
+    schema:name "Yeni Alcala" ;
+    schema:telephone "(799) 350-2794" .
+
+<https://synmed.org/patient/52742a1a-c> a schema:Person ;
+    schema:address " 0793 Viaducto Cornejo, Nueva Somalia, Mexico" ;
+    schema:age 64 ;
+    schema:birthDate "1960-07-21" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.439> ;
+    schema:gender "Female" ;
+    schema:name "César Nazario" ;
+    schema:telephone "(719) 259-2720" ;
+    schema:usesDrug <https://synmed.org/medication/C10AB04> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.23> .
+
+<https://synmed.org/patient/57116fbc-3> a schema:Person ;
+    schema:address " 36436 Scott Drive, Smithmouth, United States" ;
+    schema:age 55 ;
+    schema:birthDate "1969-02-19" ;
+    schema:diagnosis <https://synmed.org/diagnosis/E11.311> ;
+    schema:gender "Male" ;
+    schema:name "Ryan West" ;
+    schema:telephone "(850) 556-6771" ;
+    schema:usesDrug <https://synmed.org/medication/A10BB08> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/E02>,
+        <https://synmed.org/diagnosis/E79.81> .
+
+<https://synmed.org/patient/594a3bfe-3> a schema:Person ;
+    schema:address " 4627 Knapp Hollow, New Mary, United States" ;
+    schema:age 51 ;
+    schema:birthDate "1973-02-05" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.231> ;
+    schema:gender "Female" ;
+    schema:name "Benjamin Sellers" ;
+    schema:telephone "(708) 734-5203" ;
+    schema:usesDrug <https://synmed.org/medication/N06BX13> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.3> .
+
+<https://synmed.org/patient/5b8846a4-d> a schema:Person ;
+    schema:address " 7993 Kristen Shores, North Melody, United States" ;
+    schema:age 54 ;
+    schema:birthDate "1970-07-08" ;
+    schema:diagnosis <https://synmed.org/diagnosis/M48.45XG> ;
+    schema:gender "Male" ;
+    schema:name "Jay Ortiz" ;
+    schema:telephone "(220) 453-7110" .
+
+<https://synmed.org/patient/5c5b19b2-8> a schema:Person ;
+    schema:address " 830 Garcia Prairie, Levinestad, United States" ;
+    schema:age 11 ;
+    schema:birthDate "2013-07-20" ;
+    schema:diagnosis <https://synmed.org/diagnosis/K76.82> ;
+    schema:gender "Female" ;
+    schema:name "Steven Rosales" ;
+    schema:telephone "(126) 123-2938" ;
+    schema:usesDrug <https://synmed.org/medication/A04AA01> .
+
+<https://synmed.org/patient/5d767cdf-2> a schema:Person ;
+    schema:address " 63255 Pasaje Somalia, San Francisco Javier los altos, Mexico" ;
+    schema:age 60 ;
+    schema:birthDate "1964-10-05" ;
+    schema:diagnosis <https://synmed.org/diagnosis/T23.722D> ;
+    schema:gender "Male" ;
+    schema:name "Ivonne Haro" ;
+    schema:telephone "(073) 407-6337" ;
+    schema:usesDrug <https://synmed.org/medication/D08AJ59> .
+
+<https://synmed.org/patient/5e655d24-b> a schema:Person ;
+    schema:address " 456 Thomas Square, Port Sarahville, United States" ;
+    schema:age 59 ;
+    schema:birthDate "1965-07-02" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S62.605P> ;
+    schema:gender "Male" ;
+    schema:name "Barry Clark" ;
+    schema:telephone "(493) 796-8353" .
+
+<https://synmed.org/patient/5f89c1c9-b> a schema:Person ;
+    schema:address " 2187 Pasaje Oaxaca, Nueva Mauritania, Mexico" ;
+    schema:age 47 ;
+    schema:birthDate "1977-03-12" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.133> ;
+    schema:gender "Male" ;
+    schema:name "María Montez" ;
+    schema:telephone "(098) 741-6239" ;
+    schema:usesDrug <https://synmed.org/medication/C10AA05> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.3> .
+
+<https://synmed.org/patient/6180612b-0> a schema:Person ;
+    schema:address " 110 Johnson Extension, Brennanland, United States" ;
+    schema:age 67 ;
+    schema:birthDate "1956-12-26" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S91.125A> ;
+    schema:gender "Female" ;
+    schema:name "William Smith" ;
+    schema:telephone "(347) 763-9351" .
+
+<https://synmed.org/patient/61d18df7-8> a schema:Person ;
+    schema:address " 16720 Ampliación Sri Lanka, Nueva Granada, Mexico" ;
+    schema:age 70 ;
+    schema:birthDate "1954-09-12" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.50> ;
+    schema:gender "Male" ;
+    schema:name "Abigail Vanegas" ;
+    schema:telephone "(103) 345-0333" ;
+    schema:usesDrug <https://synmed.org/medication/C10BX06> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.22> .
+
+<https://synmed.org/patient/65beee90-f> a schema:Person ;
+    schema:address " 798 Circuito Timor-Leste, Nueva Chad, Mexico" ;
+    schema:age 41 ;
+    schema:birthDate "1983-08-30" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S98.212A> ;
+    schema:gender "Female" ;
+    schema:name "Salvador Ponce" ;
+    schema:telephone "(116) 879-9436" .
+
+<https://synmed.org/patient/6a1e95c2-1> a schema:Person ;
+    schema:address " 765 Calderon Roads, Vanessaburgh, United States" ;
+    schema:age 63 ;
+    schema:birthDate "1961-02-22" ;
+    schema:diagnosis <https://synmed.org/diagnosis/M75.121> ;
+    schema:gender "Female" ;
+    schema:name "Tyler King" ;
+    schema:telephone "(429) 697-3977" ;
+    schema:usesDrug <https://synmed.org/medication/M02AA12> .
+
+<https://synmed.org/patient/6f3f2874-7> a schema:Person ;
+    schema:address " 27518 Emily Motorway, Port Jonathanland, United States" ;
+    schema:age 42 ;
+    schema:birthDate "1982-06-08" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S99.019A> ;
+    schema:gender "Female" ;
+    schema:name "George Rodriguez" ;
+    schema:telephone "(979) 702-4594" .
+
+<https://synmed.org/patient/73a4fe42-3> a schema:Person ;
+    schema:address " 9971 Sarah Cape, West Richardchester, United States" ;
+    schema:age 10 ;
+    schema:birthDate "2014-05-16" ;
+    schema:diagnosis <https://synmed.org/diagnosis/C40.22> ;
+    schema:gender "Male" ;
+    schema:name "Paul Adams" ;
+    schema:telephone "(677) 838-8267" .
+
+<https://synmed.org/patient/785d4355-c> a schema:Person ;
+    schema:address " 51792 Bell Mission, Miguelfort, United States" ;
+    schema:age 49 ;
+    schema:birthDate "1975-05-31" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.342> ;
+    schema:gender "Female" ;
+    schema:name "John Bryant" ;
+    schema:telephone "(413) 649-5598" ;
+    schema:usesDrug <https://synmed.org/medication/B01AE02> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.03> .
+
+<https://synmed.org/patient/797a29c2-1> a schema:Person ;
+    schema:address " 265 Kiara Ford, Carolynstad, United States" ;
+    schema:age 70 ;
+    schema:birthDate "1954-10-23" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S82.64XR> ;
+    schema:gender "Male" ;
+    schema:name "Jacob Durham" ;
+    schema:telephone "(001) 597-7805" ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/S93.321D> .
+
+<https://synmed.org/patient/7edb3d96-6> a schema:Person ;
+    schema:address " 7743 Boulevard Sur Terrazas, Nueva Suecia, Mexico" ;
+    schema:age 33 ;
+    schema:birthDate "1991-08-02" ;
+    schema:diagnosis <https://synmed.org/diagnosis/K80.63> ;
+    schema:gender "Female" ;
+    schema:name "Zeferino Bustos" ;
+    schema:telephone "(064) 838-5254" .
+
+<https://synmed.org/patient/7f33494b-0> a schema:Person ;
+    schema:address " 503 Avenida Sur Valenzuela, San Mauricio los bajos, Mexico" ;
+    schema:age 53 ;
+    schema:birthDate "1971-10-06" ;
+    schema:diagnosis <https://synmed.org/diagnosis/E11.3522> ;
+    schema:gender "Female" ;
+    schema:name "Raquel Lugo" ;
+    schema:telephone "(520) 108-8912" ;
+    schema:usesDrug <https://synmed.org/medication/C09CA01> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/E02>,
+        <https://synmed.org/diagnosis/E79.89> .
+
+<https://synmed.org/patient/81c97fad-f> a schema:Person ;
+    schema:address " 135 Newton Pass, Maddenmouth, United States" ;
+    schema:age 62 ;
+    schema:birthDate "1962-02-06" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S23.162D> ;
+    schema:gender "Female" ;
+    schema:name "Joseph Sexton" ;
+    schema:telephone "(139) 655-4340" .
+
+<https://synmed.org/patient/881ee98b-f> a schema:Person ;
+    schema:address " 6474 Merritt Locks, South Daleton, United States" ;
+    schema:age 42 ;
+    schema:birthDate "1982-03-18" ;
+    schema:diagnosis <https://synmed.org/diagnosis/M84.376G> ;
+    schema:gender "Female" ;
+    schema:name "Lawrence Gonzales" ;
+    schema:telephone "(476) 821-4376" .
+
+<https://synmed.org/patient/887d99f4-d> a schema:Person ;
+    schema:address " 8132 Cindy Pines, Jordanshire, United States" ;
+    schema:age 41 ;
+    schema:birthDate "1983-11-16" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S99.201G> ;
+    schema:gender "Female" ;
+    schema:name "Mark Lucas" ;
+    schema:telephone "(882) 736-5270" .
+
+<https://synmed.org/patient/88c8d0b0-8> a schema:Person ;
+    schema:address " 264 Pasaje Sur Rodríguez, Vieja Perú, Mexico" ;
+    schema:age 47 ;
+    schema:birthDate "1977-09-04" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S00.512A> ;
+    schema:gender "Male" ;
+    schema:name "Uriel Beltrán" ;
+    schema:telephone "(002) 614-8079" ;
+    schema:usesDrug <https://synmed.org/medication/N02BE51> .
+
+<https://synmed.org/patient/8da113f3-7> a schema:Person ;
+    schema:address " 970 Robert Rest, Rebeccastad, United States" ;
+    schema:age 70 ;
+    schema:birthDate "1954-01-16" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S23.170S> ;
+    schema:gender "Male" ;
+    schema:name "Eric Harvey" ;
+    schema:telephone "(293) 293-0228" .
+
+<https://synmed.org/patient/8e779906-b> a schema:Person ;
+    schema:address " 803 Avenida Sur Razo, San Ariadna los bajos, Mexico" ;
+    schema:age 68 ;
+    schema:birthDate "1956-03-22" ;
+    schema:diagnosis <https://synmed.org/diagnosis/C50.119> ;
+    schema:gender "Female" ;
+    schema:name "Marisela Calderón" ;
+    schema:telephone "(897) 229-2796" ;
+    schema:usesDrug <https://synmed.org/medication/L01AA03> .
+
+<https://synmed.org/patient/90241017-9> a schema:Person ;
+    schema:address " 46519 Church Wells, Andreamouth, United States" ;
+    schema:age 67 ;
+    schema:birthDate "1957-04-26" ;
+    schema:diagnosis <https://synmed.org/diagnosis/E11.621> ;
+    schema:gender "Female" ;
+    schema:name "William Beard" ;
+    schema:telephone "(381) 495-6855" ;
+    schema:usesDrug <https://synmed.org/medication/A10BB04> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/E02>,
+        <https://synmed.org/diagnosis/E79.0> .
+
+<https://synmed.org/patient/9331ac37-2> a schema:Person ;
+    schema:address " 351 Cherry Spurs, Lake Martha, United States" ;
+    schema:age 42 ;
+    schema:birthDate "1982-09-25" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S72.416A> ;
+    schema:gender "Male" ;
+    schema:name "Jason Mendez" ;
+    schema:telephone "(523) 360-4254" .
+
+<https://synmed.org/patient/992c6588-3> a schema:Person ;
+    schema:address " 693 Yates Valley, Joemouth, United States" ;
+    schema:age 5 ;
+    schema:birthDate "2019-09-10" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I82.563> ;
+    schema:gender "Male" ;
+    schema:name "James Graham" ;
+    schema:telephone "(201) 547-1136" ;
+    schema:usesDrug <https://synmed.org/medication/C10AX14> .
+
+<https://synmed.org/patient/9aca9a8b-d> a schema:Person ;
+    schema:address " 3256 Barber Mount, South Stephanie, United States" ;
+    schema:age 72 ;
+    schema:birthDate "1952-09-20" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S72.422A> ;
+    schema:gender "Female" ;
+    schema:name "Gabriel Brown" ;
+    schema:telephone "(700) 221-6483" .
+
+<https://synmed.org/patient/9b638146-b> a schema:Person ;
+    schema:address " 118 Andador Puebla, San Tomás los altos, Mexico" ;
+    schema:age 79 ;
+    schema:birthDate "1945-08-22" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.133> ;
+    schema:gender "Female" ;
+    schema:name "Luis Manuel Ávalos" ;
+    schema:telephone "(088) 245-2311" ;
+    schema:usesDrug <https://synmed.org/medication/B01AB01> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.09> .
+
+<https://synmed.org/patient/9c25c255-5> a schema:Person ;
+    schema:address " 2856 Sharon Villages, Lake Stephanie, United States" ;
+    schema:age 32 ;
+    schema:birthDate "1992-06-07" ;
+    schema:diagnosis <https://synmed.org/diagnosis/T38.816A> ;
+    schema:gender "Male" ;
+    schema:name "Patrick Sosa" ;
+    schema:telephone "(001) 816-8325" ;
+    schema:usesDrug <https://synmed.org/medication/V03AB03> .
+
+<https://synmed.org/patient/9e972c68-d> a schema:Person ;
+    schema:address " 512 Elizabeth Island, South Jessicafurt, United States" ;
+    schema:age 56 ;
+    schema:birthDate "1968-02-03" ;
+    schema:diagnosis <https://synmed.org/diagnosis/M1A.0690> ;
+    schema:gender "Male" ;
+    schema:name "John Stafford" ;
+    schema:telephone "(316) 774-1126" .
+
+<https://synmed.org/patient/9eaad25e-d> a schema:Person ;
+    schema:address " 165 Bennett Manors, Hoodtown, United States" ;
+    schema:age 56 ;
+    schema:birthDate "1968-10-01" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.311> ;
+    schema:gender "Female" ;
+    schema:name "Joseph Lutz" ;
+    schema:telephone "(257) 362-4741" ;
+    schema:usesDrug <https://synmed.org/medication/C10AX06> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.11> .
+
+<https://synmed.org/patient/a8269a08-3> a schema:Person ;
+    schema:address " 69136 Callejón Norte Calderón, San Mónica de la Montaña, Mexico" ;
+    schema:age 62 ;
+    schema:birthDate "1962-07-10" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.529> ;
+    schema:gender "Male" ;
+    schema:name "Abelardo Saucedo" ;
+    schema:telephone "(173) 207-3111" ;
+    schema:usesDrug <https://synmed.org/medication/N06BX13> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.23> .
+
+<https://synmed.org/patient/a93cf96b-3> a schema:Person ;
+    schema:address " 90134 Yang Valley, Seanborough, United States" ;
+    schema:age 5 ;
+    schema:birthDate "2019-07-15" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S54.90XA> ;
+    schema:gender "Female" ;
+    schema:name "Charles Livingston" ;
+    schema:telephone "(217) 826-7784" .
+
+<https://synmed.org/patient/aa436cbb-7> a schema:Person ;
+    schema:address " 169 April Mission, Thompsontown, United States" ;
+    schema:age 64 ;
+    schema:birthDate "1959-12-04" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.433> ;
+    schema:gender "Male" ;
+    schema:name "William Dudley" ;
+    schema:telephone "(233) 872-4777" ;
+    schema:usesDrug <https://synmed.org/medication/B01AC08> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.03> .
+
+<https://synmed.org/patient/abe0886e-0> a schema:Person ;
+    schema:address " 266 Calzada Sur Cadena, San Alonso los altos, Mexico" ;
+    schema:age 37 ;
+    schema:birthDate "1987-02-22" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S25.809D> ;
+    schema:gender "Male" ;
+    schema:name "Roberto Toro" ;
+    schema:telephone "(683) 097-0530" .
+
+<https://synmed.org/patient/ac594733-2> a schema:Person ;
+    schema:address " 1067 Luna Road, South Josestad, United States" ;
+    schema:age 57 ;
+    schema:birthDate "1967-07-07" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S72.402D> ;
+    schema:gender "Female" ;
+    schema:name "Frank Schultz" ;
+    schema:telephone "(276) 430-8444" .
+
+<https://synmed.org/patient/af4a612b-6> a schema:Person ;
+    schema:address " 2895 Daniel Trail, Port Sheliahaven, United States" ;
+    schema:age 62 ;
+    schema:birthDate "1962-06-10" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.6> ;
+    schema:gender "Male" ;
+    schema:name "Christopher Livingston" ;
+    schema:telephone "(286) 448-4088" ;
+    schema:usesDrug <https://synmed.org/medication/C10AA05> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.9> .
+
+<https://synmed.org/patient/b0d5d929-7> a schema:Person ;
+    schema:address " 68260 Retorno Micronesia, Nueva Gambia, Mexico" ;
+    schema:age 74 ;
+    schema:birthDate "1950-09-27" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S65.101A> ;
+    schema:gender "Female" ;
+    schema:name "Itzel Alcántar" ;
+    schema:telephone "(282) 447-3293" .
+
+<https://synmed.org/patient/b1583644-5> a schema:Person ;
+    schema:address " 8854 Boulevard Sur García, Nueva Bélgica, Mexico" ;
+    schema:age 69 ;
+    schema:birthDate "1955-05-28" ;
+    schema:diagnosis <https://synmed.org/diagnosis/T79.0XXD> ;
+    schema:gender "Male" ;
+    schema:name "Porfirio Viera" ;
+    schema:telephone "(071) 714-3865" .
+
+<https://synmed.org/patient/b52b5a11-c> a schema:Person ;
+    schema:address " 1772 Peatonal Michoacán de Ocampo, San María Teresa de la Montaña, Mexico" ;
+    schema:age 80 ;
+    schema:birthDate "1944-03-22" ;
+    schema:diagnosis <https://synmed.org/diagnosis/M22.10> ;
+    schema:gender "Female" ;
+    schema:name "María Eugenia Cedillo" ;
+    schema:telephone "(097) 181-0255" .
+
+<https://synmed.org/patient/ba4bc6fd-8> a schema:Person ;
+    schema:address " 9946 Joshua Station, East Charles, United States" ;
+    schema:age 78 ;
+    schema:birthDate "1946-10-21" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S42.462B> ;
+    schema:gender "Male" ;
+    schema:name "Jacob Rios" ;
+    schema:telephone "(150) 690-7745" .
+
+<https://synmed.org/patient/bcac46f3-f> a schema:Person ;
+    schema:address " 94295 Cerrada Maldivas, San Nadia de la Montaña, Mexico" ;
+    schema:age 76 ;
+    schema:birthDate "1948-08-11" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.012> ;
+    schema:gender "Male" ;
+    schema:name "Teodoro Quiñones" ;
+    schema:telephone "(770) 262-1219" ;
+    schema:usesDrug <https://synmed.org/medication/C05BA04> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.03> .
+
+<https://synmed.org/patient/bf8dd730-d> a schema:Person ;
+    schema:address " 376 Cassandra Rapid, Laneland, United States" ;
+    schema:age 80 ;
+    schema:birthDate "1944-11-19" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S55.001A> ;
+    schema:gender "Female" ;
+    schema:name "Dillon Cuevas" ;
+    schema:telephone "(902) 333-8962" .
+
+<https://synmed.org/patient/c1b1a264-7> a schema:Person ;
+    schema:address " 9924 Circuito Kenya, San Rosalia los altos, Mexico" ;
+    schema:age 56 ;
+    schema:birthDate "1967-12-13" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.011> ;
+    schema:gender "Female" ;
+    schema:name "Eloy del Río" ;
+    schema:telephone "(606) 408-4988" ;
+    schema:usesDrug <https://synmed.org/medication/C08CA04> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.9> .
+
+<https://synmed.org/patient/c61450ed-b> a schema:Person ;
+    schema:address " 57420 Cerrada San Luis Potosí, San Jacobo los altos, Mexico" ;
+    schema:age 33 ;
+    schema:birthDate "1991-06-21" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.512> ;
+    schema:gender "Male" ;
+    schema:name "Ramiro Estévez" ;
+    schema:telephone "(149) 270-2649" ;
+    schema:usesDrug <https://synmed.org/medication/B01AE02> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.12> .
+
+<https://synmed.org/patient/c6fa9666-9> a schema:Person ;
+    schema:address " 98030 Benitez Meadow, Lake Davidhaven, United States" ;
+    schema:age 46 ;
+    schema:birthDate "1978-01-01" ;
+    schema:diagnosis <https://synmed.org/diagnosis/T43.3X2D> ;
+    schema:gender "Female" ;
+    schema:name "John King" ;
+    schema:telephone "(386) 914-1861" ;
+    schema:usesDrug <https://synmed.org/medication/C03CA01> .
+
+<https://synmed.org/patient/c9b857ef-d> a schema:Person ;
+    schema:address " 80037 Sarah Brook, North Derek, United States" ;
+    schema:age 55 ;
+    schema:birthDate "1969-02-13" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.439> ;
+    schema:gender "Female" ;
+    schema:name "Tyler Montoya" ;
+    schema:telephone "(001) 881-4425" ;
+    schema:usesDrug <https://synmed.org/medication/C10BX06> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.23> .
+
+<https://synmed.org/patient/cc4c8c56-8> a schema:Person ;
+    schema:address " 58861 Dunn Stream, New Johnville, United States" ;
+    schema:age 60 ;
+    schema:birthDate "1964-06-02" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.19> ;
+    schema:gender "Male" ;
+    schema:name "Richard Adams" ;
+    schema:telephone "(173) 720-6564" ;
+    schema:usesDrug <https://synmed.org/medication/C10BX04> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.29> .
+
+<https://synmed.org/patient/d00483bd-e> a schema:Person ;
+    schema:address " 90995 Ortiz View, Webbberg, United States" ;
+    schema:age 8 ;
+    schema:birthDate "2016-02-23" ;
+    schema:diagnosis <https://synmed.org/diagnosis/E11.29> ;
+    schema:gender "Male" ;
+    schema:name "Kenneth Jefferson" ;
+    schema:telephone "(001) 341-7249" ;
+    schema:usesDrug <https://synmed.org/medication/M01AC56> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/E02>,
+        <https://synmed.org/diagnosis/E79.2> .
+
+<https://synmed.org/patient/dd4d341c-6> a schema:Person ;
+    schema:address " 9292 Corredor Canales, San Trinidad los altos, Mexico" ;
+    schema:age 67 ;
+    schema:birthDate "1957-04-03" ;
+    schema:diagnosis <https://synmed.org/diagnosis/Q33.5> ;
+    schema:gender "Female" ;
+    schema:name "Javier Roque" ;
+    schema:telephone "(791) 922-6787" .
+
+<https://synmed.org/patient/e0149852-e> a schema:Person ;
+    schema:address " 4740 Privada Sur Galván, Nueva Uzbekistán, Mexico" ;
+    schema:age 70 ;
+    schema:birthDate "1954-05-31" ;
+    schema:diagnosis <https://synmed.org/diagnosis/C83.78> ;
+    schema:gender "Female" ;
+    schema:name "Eduardo Haro" ;
+    schema:telephone "(126) 483-2055" ;
+    schema:usesDrug <https://synmed.org/medication/L01BA05> .
+
+<https://synmed.org/patient/e01652c6-c> a schema:Person ;
+    schema:address " 8527 Baxter Cliff, South Larry, United States" ;
+    schema:age 76 ;
+    schema:birthDate "1948-01-15" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S63.124S> ;
+    schema:gender "Female" ;
+    schema:name "Matthew Serrano" ;
+    schema:telephone "(001) 514-8249" .
+
+<https://synmed.org/patient/e13669b7-8> a schema:Person ;
+    schema:address " 7537 Taylor Shores, Sarahfurt, United States" ;
+    schema:age 67 ;
+    schema:birthDate "1957-05-14" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S62.023A> ;
+    schema:gender "Female" ;
+    schema:name "Mark Montgomery" ;
+    schema:telephone "(001) 524-2932" .
+
+<https://synmed.org/patient/e16ce209-1> a schema:Person ;
+    schema:address " 86306 Ampliación Tayikistán, San Teresa de la Montaña, Mexico" ;
+    schema:age 5 ;
+    schema:birthDate "2019-08-15" ;
+    schema:diagnosis <https://synmed.org/diagnosis/T46.991A> ;
+    schema:gender "Female" ;
+    schema:name "Adela Trujillo" ;
+    schema:telephone "(094) 414-5547" ;
+    schema:usesDrug <https://synmed.org/medication/A12BA05> .
+
+<https://synmed.org/patient/e2c14b7b-0> a schema:Person ;
+    schema:address " 128 Diagonal Guatemala, Vieja Paraguay, Mexico" ;
+    schema:age 50 ;
+    schema:birthDate "1973-12-02" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.342> ;
+    schema:gender "Male" ;
+    schema:name "Beatriz Rendón" ;
+    schema:telephone "(044) 129-2399" ;
+    schema:usesDrug <https://synmed.org/medication/B01AC07> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.19> .
+
+<https://synmed.org/patient/e4aaeecf-6> a schema:Person ;
+    schema:address " 3799 Lisa Path, North Cathy, United States" ;
+    schema:age 40 ;
+    schema:birthDate "1983-12-18" ;
+    schema:diagnosis <https://synmed.org/diagnosis/E11.3413> ;
+    schema:gender "Female" ;
+    schema:name "Christopher Coleman" ;
+    schema:telephone "(684) 856-5598" ;
+    schema:usesDrug <https://synmed.org/medication/A10BB12> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/E02>,
+        <https://synmed.org/diagnosis/E79.89> .
+
+<https://synmed.org/patient/e4d31d01-5> a schema:Person ;
+    schema:address " 5011 Retorno Norte Rubio, San Abel los bajos, Mexico" ;
+    schema:age 1 ;
+    schema:birthDate "2023-02-23" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S72.112C> ;
+    schema:gender "Female" ;
+    schema:name "Ana María Tafoya" ;
+    schema:telephone "(738) 439-3801" .
+
+<https://synmed.org/patient/e787d35b-b> a schema:Person ;
+    schema:address " 4292 Ampliación Mozambique, Nueva Belice, Mexico" ;
+    schema:age 69 ;
+    schema:birthDate "1955-08-13" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S52.309D> ;
+    schema:gender "Male" ;
+    schema:name "Óscar Ozuna" ;
+    schema:telephone "(195) 160-5716" .
+
+<https://synmed.org/patient/eb5ed1d8-8> a schema:Person ;
+    schema:address " 592 Retorno Nueva Zelandia, San Vanesa de la Montaña, Mexico" ;
+    schema:age 60 ;
+    schema:birthDate "1964-07-08" ;
+    schema:diagnosis <https://synmed.org/diagnosis/C34.30> ;
+    schema:gender "Female" ;
+    schema:name "Diego Armendáriz" ;
+    schema:telephone "(159) 304-3535" ;
+    schema:usesDrug <https://synmed.org/medication/L04AX03> .
+
+<https://synmed.org/patient/efd2cdc5-f> a schema:Person ;
+    schema:address " 2690 Retorno Coahuila de Zaragoza, San Beatriz de la Montaña, Mexico" ;
+    schema:age 53 ;
+    schema:birthDate "1971-01-03" ;
+    schema:diagnosis <https://synmed.org/diagnosis/C34.82> ;
+    schema:gender "Female" ;
+    schema:name "Sandra Matos" ;
+    schema:telephone "(427) 992-2285" ;
+    schema:usesDrug <https://synmed.org/medication/L01AD02> .
+
+<https://synmed.org/patient/f0c4615e-6> a schema:Person ;
+    schema:address " 894 Jennifer Fields, East Richardburgh, United States" ;
+    schema:age 70 ;
+    schema:birthDate "1954-11-19" ;
+    schema:diagnosis <https://synmed.org/diagnosis/T22.521S> ;
+    schema:gender "Male" ;
+    schema:name "Wesley Fields" ;
+    schema:telephone "(767) 905-1237" ;
+    schema:usesDrug <https://synmed.org/medication/D08AK04> .
+
+<https://synmed.org/patient/f1a526a2-0> a schema:Person ;
+    schema:address " 72849 Corredor Norte Valenzuela, Vieja Mongolia, Mexico" ;
+    schema:age 50 ;
+    schema:birthDate "1974-06-10" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S52.343N> ;
+    schema:gender "Male" ;
+    schema:name "Paola Rojo" ;
+    schema:telephone "(653) 623-9388" .
+
+<https://synmed.org/patient/f4f01f7f-d> a schema:Person ;
+    schema:address " 74249 Stout Shoal, Evanchester, United States" ;
+    schema:age 62 ;
+    schema:birthDate "1962-04-18" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S12.000A> ;
+    schema:gender "Male" ;
+    schema:name "Zachary Williams" ;
+    schema:telephone "(001) 449-5000" .
+
+<https://synmed.org/patient/f5233b0a-b> a schema:Person ;
+    schema:address " 31384 Graham Estates, Churchchester, United States" ;
+    schema:age 51 ;
+    schema:birthDate "1973-08-13" ;
+    schema:diagnosis <https://synmed.org/diagnosis/P23.5> ;
+    schema:gender "Female" ;
+    schema:name "Donald Gates" ;
+    schema:telephone "(977) 462-7493" .
+
+<https://synmed.org/patient/f56b3928-3> a schema:Person ;
+    schema:address " 163 Gill Street, Newmanfurt, United States" ;
+    schema:age 43 ;
+    schema:birthDate "1981-02-25" ;
+    schema:diagnosis <https://synmed.org/diagnosis/T65.94XS> ;
+    schema:gender "Male" ;
+    schema:name "Eugene Adams" ;
+    schema:telephone "(833) 837-2151" ;
+    schema:usesDrug <https://synmed.org/medication/B02BA01> .
+
+<https://synmed.org/patient/f8fa21a1-d> a schema:Person ;
+    schema:address " 94745 Faulkner Port, Simpsonton, United States" ;
+    schema:age 60 ;
+    schema:birthDate "1964-11-13" ;
+    schema:diagnosis <https://synmed.org/diagnosis/Q91.7> ;
+    schema:gender "Male" ;
+    schema:name "Scott Nichols" ;
+    schema:telephone "(351) 865-2431" .
+
+<https://synmed.org/patient/fb25c542-d> a schema:Person ;
+    schema:address " 9828 Avenida Norte Merino, Nueva China, Mexico" ;
+    schema:age 40 ;
+    schema:birthDate "1984-09-25" ;
+    schema:diagnosis <https://synmed.org/diagnosis/S25.191D> ;
+    schema:gender "Male" ;
+    schema:name "Virginia Ontiveros" ;
+    schema:telephone "(780) 185-3299" .
+
+<https://synmed.org/patient/fdbee2c3-0> a schema:Person ;
+    schema:address " 93861 Calle Aranda, San Magdalena los altos, Mexico" ;
+    schema:age 62 ;
+    schema:birthDate "1962-04-07" ;
+    schema:diagnosis <https://synmed.org/diagnosis/I63.349> ;
+    schema:gender "Male" ;
+    schema:name "Omar Valladares" ;
+    schema:telephone "(378) 446-7374" ;
+    schema:usesDrug <https://synmed.org/medication/B01AC04> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/I66.19> .
+
+<https://synmed.org/patient/ff4d30dc-3> a schema:Person ;
+    schema:address " 468 Jones Bridge, Lake Andrealand, United States" ;
+    schema:age 61 ;
+    schema:birthDate "1963-01-13" ;
+    schema:diagnosis <https://synmed.org/diagnosis/E11.42> ;
+    schema:gender "Male" ;
+    schema:name "Steven Jones" ;
+    schema:telephone "(372) 270-8417" ;
+    schema:usesDrug <https://synmed.org/medication/B01AC10> ;
+    base:hasHistoricalDiagnosis <https://synmed.org/diagnosis/E02>,
+        <https://synmed.org/diagnosis/E79.82> .
+
+<https://synmed.org/diagnosis/C34.30> a schema:MedicalCondition ;
+    schema:description "Malignant neoplasm of lower lobe, unspecified bronchus or lung" ;
+    schema:identifier "C34.30" ;
+    schema:name "Malignant neoplasm of lower lobe, unsp bronchus or lung" .
+
+<https://synmed.org/diagnosis/C34.82> a schema:MedicalCondition ;
+    schema:description "Malignant neoplasm of overlapping sites of left bronchus and lung" ;
+    schema:identifier "C34.82" ;
+    schema:name "Malignant neoplasm of ovrlp sites of left bronchus and lung" .
+
+<https://synmed.org/diagnosis/C34.90> a schema:MedicalCondition ;
+    schema:description "Malignant neoplasm of unspecified part of unspecified bronchus or lung" ;
+    schema:identifier "C34.90" ;
+    schema:name "Malignant neoplasm of unsp part of unsp bronchus or lung" .
+
+<https://synmed.org/diagnosis/C40.22> a schema:MedicalCondition ;
+    schema:description "Malignant neoplasm of long bones of left lower limb" ;
+    schema:identifier "C40.22" ;
+    schema:name "Malignant neoplasm of long bones of left lower limb" .
+
+<https://synmed.org/diagnosis/C50.119> a schema:MedicalCondition ;
+    schema:description "Malignant neoplasm of central portion of unspecified female breast" ;
+    schema:identifier "C50.119" ;
+    schema:name "Malignant neoplasm of central portion of unsp female breast" .
+
+<https://synmed.org/diagnosis/C50.522> a schema:MedicalCondition ;
+    schema:description "Malignant neoplasm of lower-outer quadrant of left male breast" ;
+    schema:identifier "C50.522" ;
+    schema:name "Malig neoplasm of lower-outer quadrant of left male breast" .
+
+<https://synmed.org/diagnosis/C83.78> a schema:MedicalCondition ;
+    schema:description "Burkitt lymphoma, lymph nodes of multiple sites" ;
+    schema:identifier "C83.78" ;
+    schema:name "Burkitt lymphoma, lymph nodes of multiple sites" .
+
+<https://synmed.org/diagnosis/C92.21> a schema:MedicalCondition ;
+    schema:description "Atypical chronic myeloid leukemia, BCR/ABL-negative, in remission" ;
+    schema:identifier "C92.21" ;
+    schema:name "Atypical chronic myeloid leukemia, BCR/ABL-neg, in remission" .
+
+<https://synmed.org/diagnosis/D37.04> a schema:MedicalCondition ;
+    schema:description "Neoplasm of uncertain behavior of the minor salivary glands" ;
+    schema:identifier "D37.04" ;
+    schema:name "Neoplasm of uncertain behavior of the minor salivary glands" .
+
+<https://synmed.org/diagnosis/E11.22> a schema:MedicalCondition ;
+    schema:description "Type 2 diabetes mellitus with diabetic chronic kidney disease" ;
+    schema:identifier "E11.22" ;
+    schema:name "Type 2 diabetes mellitus w diabetic chronic kidney disease" .
+
+<https://synmed.org/diagnosis/E11.29> a schema:MedicalCondition ;
+    schema:description "Type 2 diabetes mellitus with other diabetic kidney complication" ;
+    schema:identifier "E11.29" ;
+    schema:name "Type 2 diabetes mellitus w oth diabetic kidney complication" .
+
+<https://synmed.org/diagnosis/E11.311> a schema:MedicalCondition ;
+    schema:description "Type 2 diabetes mellitus with unspecified diabetic retinopathy with macular edema" ;
+    schema:identifier "E11.311" ;
+    schema:name "Type 2 diabetes w unsp diabetic retinopathy w macular edema" .
+
+<https://synmed.org/diagnosis/E11.3413> a schema:MedicalCondition ;
+    schema:description "Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, bilateral" ;
+    schema:identifier "E11.3413" ;
+    schema:name "Type 2 diab with severe nonp rtnop with macular edema, bi" .
+
+<https://synmed.org/diagnosis/E11.3522> a schema:MedicalCondition ;
+    schema:description "Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, left eye" ;
+    schema:identifier "E11.3522" ;
+    schema:name "Type 2 diab w prolif diab rtnop w trctn dtch macula, l eye" .
+
+<https://synmed.org/diagnosis/E11.42> a schema:MedicalCondition ;
+    schema:description "Type 2 diabetes mellitus with diabetic polyneuropathy" ;
+    schema:identifier "E11.42" ;
+    schema:name "Type 2 diabetes mellitus with diabetic polyneuropathy" .
+
+<https://synmed.org/diagnosis/E11.621> a schema:MedicalCondition ;
+    schema:description "Type 2 diabetes mellitus with foot ulcer" ;
+    schema:identifier "E11.621" ;
+    schema:name "Type 2 diabetes mellitus with foot ulcer" .
+
+<https://synmed.org/diagnosis/E79.0> a schema:MedicalCondition ;
+    schema:description "Hyperuricemia without signs of inflammatory arthritis and tophaceous disease" ;
+    schema:identifier "E79.0" ;
+    schema:name "Hyperuricemia w/o signs of inflam arthrit and tophaceous dis" .
+
+<https://synmed.org/diagnosis/E79.81> a schema:MedicalCondition ;
+    schema:description "Aicardi-Goutieres syndrome" ;
+    schema:identifier "E79.81" ;
+    schema:name "Aicardi-Goutieres syndrome" .
+
+<https://synmed.org/diagnosis/E79.82> a schema:MedicalCondition ;
+    schema:description "Hereditary xanthinuria" ;
+    schema:identifier "E79.82" ;
+    schema:name "Hereditary xanthinuria" .
+
+<https://synmed.org/diagnosis/H02.123> a schema:MedicalCondition ;
+    schema:description "Mechanical ectropion of right eye, unspecified eyelid" ;
+    schema:identifier "H02.123" ;
+    schema:name "Mechanical ectropion of right eye, unspecified eyelid" .
+
+<https://synmed.org/diagnosis/I20.1> a schema:MedicalCondition ;
+    schema:description "Angina pectoris with documented spasm" ;
+    schema:identifier "I20.1" ;
+    schema:name "Angina pectoris with documented spasm" .
+
+<https://synmed.org/diagnosis/I21.9> a schema:MedicalCondition ;
+    schema:description "Acute myocardial infarction, unspecified" ;
+    schema:identifier "I21.9" ;
+    schema:name "Acute myocardial infarction, unspecified" .
+
+<https://synmed.org/diagnosis/I25.119> a schema:MedicalCondition ;
+    schema:description "Atherosclerotic heart disease of native coronary artery with unspecified angina pectoris" ;
+    schema:identifier "I25.119" ;
+    schema:name "Athscl heart disease of native cor art w unsp ang pctrs" .
+
+<https://synmed.org/diagnosis/I63.011> a schema:MedicalCondition ;
+    schema:description "Cerebral infarction due to thrombosis of right vertebral artery" ;
+    schema:identifier "I63.011" ;
+    schema:name "Cerebral infarction due to thrombosis of r verteb art" .
+
+<https://synmed.org/diagnosis/I63.012> a schema:MedicalCondition ;
+    schema:description "Cerebral infarction due to thrombosis of left vertebral artery" ;
+    schema:identifier "I63.012" ;
+    schema:name "Cerebral infarction due to thrombosis of l verteb art" .
+
+<https://synmed.org/diagnosis/I63.19> a schema:MedicalCondition ;
+    schema:description "Cerebral infarction due to embolism of other precerebral artery" ;
+    schema:identifier "I63.19" ;
+    schema:name "Cerebral infarction due to embolism of precerebral artery" .
+
+<https://synmed.org/diagnosis/I63.231> a schema:MedicalCondition ;
+    schema:description "Cerebral infarction due to unspecified occlusion or stenosis of right carotid arteries" ;
+    schema:identifier "I63.231" ;
+    schema:name "Cereb infrc due to unsp occls or stenos of right carotid art" .
+
+<https://synmed.org/diagnosis/I63.311> a schema:MedicalCondition ;
+    schema:description "Cerebral infarction due to thrombosis of right middle cerebral artery" ;
+    schema:identifier "I63.311" ;
+    schema:name "Cereb infrc due to thombos of right middle cerebral artery" .
+
+<https://synmed.org/diagnosis/I63.333> a schema:MedicalCondition ;
+    schema:description "Cerebral infarction due to thrombosis of bilateral posterior cerebral arteries" ;
+    schema:identifier "I63.333" ;
+    schema:name "Cerebral infrc due to thombos of bi post cerebral arteries" .
+
+<https://synmed.org/diagnosis/I63.349> a schema:MedicalCondition ;
+    schema:description "Cerebral infarction due to thrombosis of unspecified cerebellar artery" ;
+    schema:identifier "I63.349" ;
+    schema:name "Cerebral infarction due to thombos unsp cerebellar artery" .
+
+<https://synmed.org/diagnosis/I63.412> a schema:MedicalCondition ;
+    schema:description "Cerebral infarction due to embolism of left middle cerebral artery" ;
+    schema:identifier "I63.412" ;
+    schema:name "Cereb infrc due to embolism of left middle cerebral artery" .
+
+<https://synmed.org/diagnosis/I63.433> a schema:MedicalCondition ;
+    schema:description "Cerebral infarction due to embolism of bilateral posterior cerebral arteries" ;
+    schema:identifier "I63.433" ;
+    schema:name "Cerebral infrc due to embolism of bi post cerebral arteries" .
+
+<https://synmed.org/diagnosis/I63.50> a schema:MedicalCondition ;
+    schema:description "Cerebral infarction due to unspecified occlusion or stenosis of unspecified cerebral artery" ;
+    schema:identifier "I63.50" ;
+    schema:name "Cereb infrc due to unsp occls or stenos of unsp cereb artery" .
+
+<https://synmed.org/diagnosis/I63.512> a schema:MedicalCondition ;
+    schema:description "Cerebral infarction due to unspecified occlusion or stenosis of left middle cerebral artery" ;
+    schema:identifier "I63.512" ;
+    schema:name "Cereb infrc d/t unsp occls or stenos of left mid cereb art" .
+
+<https://synmed.org/diagnosis/I63.529> a schema:MedicalCondition ;
+    schema:description "Cerebral infarction due to unspecified occlusion or stenosis of unspecified anterior cerebral artery" ;
+    schema:identifier "I63.529" ;
+    schema:name "Cereb infrc d/t unsp occls or stenos of unsp ant cereb art" .
+
+<https://synmed.org/diagnosis/I63.6> a schema:MedicalCondition ;
+    schema:description "Cerebral infarction due to cerebral venous thrombosis, nonpyogenic" ;
+    schema:identifier "I63.6" ;
+    schema:name "Cerebral infrc due to cerebral venous thombos, nonpyogenic" .
+
+<https://synmed.org/diagnosis/I66.09> a schema:MedicalCondition ;
+    schema:description "Occlusion and stenosis of unspecified middle cerebral artery" ;
+    schema:identifier "I66.09" ;
+    schema:name "Occlusion and stenosis of unspecified middle cerebral artery" .
+
+<https://synmed.org/diagnosis/I66.11> a schema:MedicalCondition ;
+    schema:description "Occlusion and stenosis of right anterior cerebral artery" ;
+    schema:identifier "I66.11" ;
+    schema:name "Occlusion and stenosis of right anterior cerebral artery" .
+
+<https://synmed.org/diagnosis/I66.12> a schema:MedicalCondition ;
+    schema:description "Occlusion and stenosis of left anterior cerebral artery" ;
+    schema:identifier "I66.12" ;
+    schema:name "Occlusion and stenosis of left anterior cerebral artery" .
+
+<https://synmed.org/diagnosis/I66.21> a schema:MedicalCondition ;
+    schema:description "Occlusion and stenosis of right posterior cerebral artery" ;
+    schema:identifier "I66.21" ;
+    schema:name "Occlusion and stenosis of right posterior cerebral artery" .
+
+<https://synmed.org/diagnosis/I66.22> a schema:MedicalCondition ;
+    schema:description "Occlusion and stenosis of left posterior cerebral artery" ;
+    schema:identifier "I66.22" ;
+    schema:name "Occlusion and stenosis of left posterior cerebral artery" .
+
+<https://synmed.org/diagnosis/I82.462> a schema:MedicalCondition ;
+    schema:description "Acute embolism and thrombosis of left calf muscular vein" ;
+    schema:identifier "I82.462" ;
+    schema:name "Acute embolism and thrombosis of left calf muscular vein" .
+
+<https://synmed.org/diagnosis/I82.563> a schema:MedicalCondition ;
+    schema:description "Chronic embolism and thrombosis of calf muscular vein, bilateral" ;
+    schema:identifier "I82.563" ;
+    schema:name "Chronic embolism and thombos of calf muscular vein, bi" .
+
+<https://synmed.org/diagnosis/K21.00> a schema:MedicalCondition ;
+    schema:description "Gastro-esophageal reflux disease with esophagitis, without bleeding" ;
+    schema:identifier "K21.00" ;
+    schema:name "Gastro-esophageal reflux dis with esophagitis, without bleed" .
+
+<https://synmed.org/diagnosis/K29.21> a schema:MedicalCondition ;
+    schema:description "Alcoholic gastritis with bleeding" ;
+    schema:identifier "K29.21" ;
+    schema:name "Alcoholic gastritis with bleeding" .
+
+<https://synmed.org/diagnosis/K76.82> a schema:MedicalCondition ;
+    schema:description "Hepatic encephalopathy" ;
+    schema:identifier "K76.82" ;
+    schema:name "Hepatic encephalopathy" .
+
+<https://synmed.org/diagnosis/K80.63> a schema:MedicalCondition ;
+    schema:description "Calculus of gallbladder and bile duct with acute cholecystitis with obstruction" ;
+    schema:identifier "K80.63" ;
+    schema:name "Calculus of GB and bile duct w acute cholecyst w obstruction" .
+
+<https://synmed.org/diagnosis/L97.819> a schema:MedicalCondition ;
+    schema:description "Non-pressure chronic ulcer of other part of right lower leg with unspecified severity" ;
+    schema:identifier "L97.819" ;
+    schema:name "Non-pressure chronic ulcer oth prt r low leg w unsp severity" .
+
+<https://synmed.org/diagnosis/M1A.0690> a schema:MedicalCondition ;
+    schema:description "Idiopathic chronic gout, unspecified knee, without tophus (tophi)" ;
+    schema:identifier "M1A.0690" ;
+    schema:name "Idiopathic chronic gout, unspecified knee, without tophus" .
+
+<https://synmed.org/diagnosis/M22.10> a schema:MedicalCondition ;
+    schema:description "Recurrent subluxation of patella, unspecified knee" ;
+    schema:identifier "M22.10" ;
+    schema:name "Recurrent subluxation of patella, unspecified knee" .
+
+<https://synmed.org/diagnosis/M48.45XG> a schema:MedicalCondition ;
+    schema:description "Fatigue fracture of vertebra, thoracolumbar region, subsequent encounter for fracture with delayed healing" ;
+    schema:identifier "M48.45XG" ;
+    schema:name "Fatigue fx vertebra, thrclm region, subs for fx w delay heal" .
+
+<https://synmed.org/diagnosis/M75.121> a schema:MedicalCondition ;
+    schema:description "Complete rotator cuff tear or rupture of right shoulder, not specified as traumatic" ;
+    schema:identifier "M75.121" ;
+    schema:name "Complete rotatr-cuff tear/ruptr of r shoulder, not trauma" .
+
+<https://synmed.org/diagnosis/M84.376G> a schema:MedicalCondition ;
+    schema:description "Stress fracture, unspecified foot, subsequent encounter for fracture with delayed healing" ;
+    schema:identifier "M84.376G" ;
+    schema:name "Stress fracture, unsp foot, subs for fx w delay heal" .
+
+<https://synmed.org/diagnosis/P23.5> a schema:MedicalCondition ;
+    schema:description "Congenital pneumonia due to Pseudomonas" ;
+    schema:identifier "P23.5" ;
+    schema:name "Congenital pneumonia due to Pseudomonas" .
+
+<https://synmed.org/diagnosis/Q33.5> a schema:MedicalCondition ;
+    schema:description "Ectopic tissue in lung" ;
+    schema:identifier "Q33.5" ;
+    schema:name "Ectopic tissue in lung" .
+
+<https://synmed.org/diagnosis/Q91.7> a schema:MedicalCondition ;
+    schema:description "Trisomy 13, unspecified" ;
+    schema:identifier "Q91.7" ;
+    schema:name "Trisomy 13, unspecified" .
+
+<https://synmed.org/diagnosis/Q95.3> a schema:MedicalCondition ;
+    schema:description "Balanced sex/autosomal rearrangement in abnormal individual" ;
+    schema:identifier "Q95.3" ;
+    schema:name "Balanced sex/autosomal rearrangement in abnormal individual" .
+
+<https://synmed.org/diagnosis/S00.512A> a schema:MedicalCondition ;
+    schema:description "Abrasion of oral cavity, initial encounter" ;
+    schema:identifier "S00.512A" ;
+    schema:name "Abrasion of oral cavity, initial encounter" .
+
+<https://synmed.org/diagnosis/S00.91XA> a schema:MedicalCondition ;
+    schema:description "Abrasion of unspecified part of head, initial encounter" ;
+    schema:identifier "S00.91XA" ;
+    schema:name "Abrasion of unspecified part of head, initial encounter" .
+
+<https://synmed.org/diagnosis/S12.000A> a schema:MedicalCondition ;
+    schema:description "Unspecified displaced fracture of first cervical vertebra, initial encounter for closed fracture" ;
+    schema:identifier "S12.000A" ;
+    schema:name "Unsp disp fx of first cervical vertebra, init for clos fx" .
+
+<https://synmed.org/diagnosis/S21.419A> a schema:MedicalCondition ;
+    schema:description "Laceration without foreign body of unspecified back wall of thorax with penetration into thoracic cavity, initial encounter" ;
+    schema:identifier "S21.419A" ;
+    schema:name "Lac w/o fb of unsp bk wl of thorax w penet thor cavity, init" .
+
+<https://synmed.org/diagnosis/S23.162D> a schema:MedicalCondition ;
+    schema:description "Subluxation of T11/T12 thoracic vertebra, subsequent encounter" ;
+    schema:identifier "S23.162D" ;
+    schema:name "Subluxation of T11/T12 thoracic vertebra, subs encntr" .
+
+<https://synmed.org/diagnosis/S23.170S> a schema:MedicalCondition ;
+    schema:description "Subluxation of T12/L1 thoracic vertebra, sequela" ;
+    schema:identifier "S23.170S" ;
+    schema:name "Subluxation of T12/L1 thoracic vertebra, sequela" .
+
+<https://synmed.org/diagnosis/S25.191D> a schema:MedicalCondition ;
+    schema:description "Other specified injury of right innominate or subclavian artery, subsequent encounter" ;
+    schema:identifier "S25.191D" ;
+    schema:name "Inj right innominate or subclavian artery, subs encntr" .
+
+<https://synmed.org/diagnosis/S25.809D> a schema:MedicalCondition ;
+    schema:description "Unspecified injury of other blood vessels of thorax, unspecified side, subsequent encounter" ;
+    schema:identifier "S25.809D" ;
+    schema:name "Unsp injury of oth blood vessels of thorax, unsp side, subs" .
+
+<https://synmed.org/diagnosis/S31.623D> a schema:MedicalCondition ;
+    schema:description "Laceration with foreign body of abdominal wall, right lower quadrant with penetration into peritoneal cavity, subsequent encounter" ;
+    schema:identifier "S31.623D" ;
+    schema:name "Lac w fb of abd wall, right lower q w penet perit cav, subs" .
+
+<https://synmed.org/diagnosis/S33.39XD> a schema:MedicalCondition ;
+    schema:description "Dislocation of other parts of lumbar spine and pelvis, subsequent encounter" ;
+    schema:identifier "S33.39XD" ;
+    schema:name "Dislocation of oth prt lumbar spine and pelvis, subs encntr" .
+
+<https://synmed.org/diagnosis/S42.462B> a schema:MedicalCondition ;
+    schema:description "Displaced fracture of medial condyle of left humerus, initial encounter for open fracture" ;
+    schema:identifier "S42.462B" ;
+    schema:name "Disp fx of medial condyle of left humerus, init for opn fx" .
+
+<https://synmed.org/diagnosis/S50.10XA> a schema:MedicalCondition ;
+    schema:description "Contusion of unspecified forearm, initial encounter" ;
+    schema:identifier "S50.10XA" ;
+    schema:name "Contusion of unspecified forearm, initial encounter" .
+
+<https://synmed.org/diagnosis/S52.309D> a schema:MedicalCondition ;
+    schema:description "Unspecified fracture of shaft of unspecified radius, subsequent encounter for closed fracture with routine healing" ;
+    schema:identifier "S52.309D" ;
+    schema:name "Unsp fx shaft of unsp radius, subs for clos fx w routn heal" .
+
+<https://synmed.org/diagnosis/S52.343N> a schema:MedicalCondition ;
+    schema:description "Displaced spiral fracture of shaft of radius, unspecified arm, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with nonunion" ;
+    schema:identifier "S52.343N" ;
+    schema:name "Displ spiral fx shaft of rad, unsp arm, 7thN" .
+
+<https://synmed.org/diagnosis/S54.90XA> a schema:MedicalCondition ;
+    schema:description "Injury of unspecified nerve at forearm level, unspecified arm, initial encounter" ;
+    schema:identifier "S54.90XA" ;
+    schema:name "Injury of unsp nerve at forearm level, unsp arm, init encntr" .
+
+<https://synmed.org/diagnosis/S55.001A> a schema:MedicalCondition ;
+    schema:description "Unspecified injury of ulnar artery at forearm level, right arm, initial encounter" ;
+    schema:identifier "S55.001A" ;
+    schema:name "Unsp injury of ulnar artery at forarm lv, right arm, init" .
+
+<https://synmed.org/diagnosis/S59.019S> a schema:MedicalCondition ;
+    schema:description "Salter-Harris Type I physeal fracture of lower end of ulna, unspecified arm, sequela" ;
+    schema:identifier "S59.019S" ;
+    schema:name "Sltr-haris Type I physl fx lower end of ulna, unsp arm, sqla" .
+
+<https://synmed.org/diagnosis/S59.021A> a schema:MedicalCondition ;
+    schema:description "Salter-Harris Type II physeal fracture of lower end of ulna, right arm, initial encounter for closed fracture" ;
+    schema:identifier "S59.021A" ;
+    schema:name "Sltr-haris Type II physl fx lower end ulna, right arm, init" .
+
+<https://synmed.org/diagnosis/S62.023A> a schema:MedicalCondition ;
+    schema:description "Displaced fracture of middle third of navicular [scaphoid] bone of unspecified wrist, initial encounter for closed fracture" ;
+    schema:identifier "S62.023A" ;
+    schema:name "Disp fx of middle third of navic bone of unsp wrist, init" .
+
+<https://synmed.org/diagnosis/S62.348G> a schema:MedicalCondition ;
+    schema:description "Nondisplaced fracture of base of other metacarpal bone, subsequent encounter for fracture with delayed healing" ;
+    schema:identifier "S62.348G" ;
+    schema:name "Nondisp fx of base of MC bone, subs for fx w delay heal" .
+
+<https://synmed.org/diagnosis/S62.605P> a schema:MedicalCondition ;
+    schema:description "Fracture of unspecified phalanx of left ring finger, subsequent encounter for fracture with malunion" ;
+    schema:identifier "S62.605P" ;
+    schema:name "Fx unsp phalanx of l rng fngr, subs for fx w malunion" .
+
+<https://synmed.org/diagnosis/S63.124S> a schema:MedicalCondition ;
+    schema:description "Dislocation of interphalangeal joint of right thumb, sequela" ;
+    schema:identifier "S63.124S" ;
+    schema:name "Dislocation of interphalangeal joint of right thumb, sequela" .
+
+<https://synmed.org/diagnosis/S65.101A> a schema:MedicalCondition ;
+    schema:description "Unspecified injury of radial artery at wrist and hand level of right arm, initial encounter" ;
+    schema:identifier "S65.101A" ;
+    schema:name "Unsp injury of radial art at wrs/hnd lv of right arm, init" .
+
+<https://synmed.org/diagnosis/S68.611D> a schema:MedicalCondition ;
+    schema:description "Complete traumatic transphalangeal amputation of left index finger, subsequent encounter" ;
+    schema:identifier "S68.611D" ;
+    schema:name "Complete traumatic trnsphal amputation of l idx fngr, subs" .
+
+<https://synmed.org/diagnosis/S72.112C> a schema:MedicalCondition ;
+    schema:description "Displaced fracture of greater trochanter of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC" ;
+    schema:identifier "S72.112C" ;
+    schema:name "Disp fx of greater trochanter of l femr, 7thC" .
+
+<https://synmed.org/diagnosis/S72.402D> a schema:MedicalCondition ;
+    schema:description "Unspecified fracture of lower end of left femur, subsequent encounter for closed fracture with routine healing" ;
+    schema:identifier "S72.402D" ;
+    schema:name "Unsp fx lower end of l femur, subs for clos fx w routn heal" .
+
+<https://synmed.org/diagnosis/S72.416A> a schema:MedicalCondition ;
+    schema:description "Nondisplaced unspecified condyle fracture of lower end of unspecified femur, initial encounter for closed fracture" ;
+    schema:identifier "S72.416A" ;
+    schema:name "Nondisp unsp condyle fx lower end of unsp femur, init" .
+
+<https://synmed.org/diagnosis/S72.422A> a schema:MedicalCondition ;
+    schema:description "Displaced fracture of lateral condyle of left femur, initial encounter for closed fracture" ;
+    schema:identifier "S72.422A" ;
+    schema:name "Disp fx of lateral condyle of left femur, init for clos fx" .
+
+<https://synmed.org/diagnosis/S74.92XA> a schema:MedicalCondition ;
+    schema:description "Injury of unspecified nerve at hip and thigh level, left leg, initial encounter" ;
+    schema:identifier "S74.92XA" ;
+    schema:name "Injury of unsp nerve at hip and thigh level, left leg, init" .
+
+<https://synmed.org/diagnosis/S82.461K> a schema:MedicalCondition ;
+    schema:description "Displaced segmental fracture of shaft of right fibula, subsequent encounter for closed fracture with nonunion" ;
+    schema:identifier "S82.461K" ;
+    schema:name "Displ seg fx shaft of r fibula, subs for clos fx w nonunion" .
+
+<https://synmed.org/diagnosis/S82.64XR> a schema:MedicalCondition ;
+    schema:description "Nondisplaced fracture of lateral malleolus of right fibula, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with malunion" ;
+    schema:identifier "S82.64XR" ;
+    schema:name "Nondisp fx of lateral malleolus of r fibula, 7thR" .
+
+<https://synmed.org/diagnosis/S91.125A> a schema:MedicalCondition ;
+    schema:description "Laceration with foreign body of left lesser toe(s) without damage to nail, initial encounter" ;
+    schema:identifier "S91.125A" ;
+    schema:name "Lac w fb of left lesser toe(s) w/o damage to nail, init" .
+
+<https://synmed.org/diagnosis/S93.302A> a schema:MedicalCondition ;
+    schema:description "Unspecified subluxation of left foot, initial encounter" ;
+    schema:identifier "S93.302A" ;
+    schema:name "Unspecified subluxation of left foot, initial encounter" .
+
+<https://synmed.org/diagnosis/S93.321D> a schema:MedicalCondition ;
+    schema:description "Subluxation of tarsometatarsal joint of right foot, subsequent encounter" ;
+    schema:identifier "S93.321D" ;
+    schema:name "Subluxation of tarsometatarsal joint of right foot, subs" .
+
+<https://synmed.org/diagnosis/S98.212A> a schema:MedicalCondition ;
+    schema:description "Complete traumatic amputation of two or more left lesser toes, initial encounter" ;
+    schema:identifier "S98.212A" ;
+    schema:name "Complete traumatic amp of two or more left lesser toes, init" .
+
+<https://synmed.org/diagnosis/S99.019A> a schema:MedicalCondition ;
+    schema:description "Salter-Harris Type I physeal fracture of unspecified calcaneus, initial encounter for closed fracture" ;
+    schema:identifier "S99.019A" ;
+    schema:name "Sltr-haris Type I physeal fx unspecified calcaneus, init" .
+
+<https://synmed.org/diagnosis/S99.201G> a schema:MedicalCondition ;
+    schema:description "Unspecified physeal fracture of phalanx of right toe, subsequent encounter for fracture with delayed healing" ;
+    schema:identifier "S99.201G" ;
+    schema:name "Unspecified physeal fracture of phalanx of right toe, 7thG" .
+
+<https://synmed.org/diagnosis/T22.359S> a schema:MedicalCondition ;
+    schema:description "Burn of third degree of unspecified shoulder, sequela" ;
+    schema:identifier "T22.359S" ;
+    schema:name "Burn of third degree of unspecified shoulder, sequela" .
+
+<https://synmed.org/diagnosis/T22.521S> a schema:MedicalCondition ;
+    schema:description "Corrosion of first degree of right elbow, sequela" ;
+    schema:identifier "T22.521S" ;
+    schema:name "Corrosion of first degree of right elbow, sequela" .
+
+<https://synmed.org/diagnosis/T23.722D> a schema:MedicalCondition ;
+    schema:description "Corrosion of third degree of single left finger (nail) except thumb, subsequent encounter" ;
+    schema:identifier "T23.722D" ;
+    schema:name "Corros third degree of single l finger except thumb, subs" .
+
+<https://synmed.org/diagnosis/T38.816A> a schema:MedicalCondition ;
+    schema:description "Underdosing of anterior pituitary [adenohypophyseal] hormones, initial encounter" ;
+    schema:identifier "T38.816A" ;
+    schema:name "Underdosing of anterior pituitary hormones, init encntr" .
+
+<https://synmed.org/diagnosis/T43.3X2D> a schema:MedicalCondition ;
+    schema:description "Poisoning by phenothiazine antipsychotics and neuroleptics, intentional self-harm, subsequent encounter" ;
+    schema:identifier "T43.3X2D" ;
+    schema:name "Poisn by phenothiaz antipsychot/neurolept, self-harm, subs" .
+
+<https://synmed.org/diagnosis/T46.991A> a schema:MedicalCondition ;
+    schema:description "Poisoning by other agents primarily affecting the cardiovascular system, accidental (unintentional), initial encounter" ;
+    schema:identifier "T46.991A" ;
+    schema:name "Poisoning by oth agents aff the cardiovasc sys, acc, init" .
+
+<https://synmed.org/diagnosis/T65.94XS> a schema:MedicalCondition ;
+    schema:description "Toxic effect of unspecified substance, undetermined, sequela" ;
+    schema:identifier "T65.94XS" ;
+    schema:name "Toxic effect of unspecified substance, undetermined, sequela" .
+
+<https://synmed.org/diagnosis/T79.0XXD> a schema:MedicalCondition ;
+    schema:description "Air embolism (traumatic), subsequent encounter" ;
+    schema:identifier "T79.0XXD" ;
+    schema:name "Air embolism (traumatic), subsequent encounter" .
+
+<https://synmed.org/diagnosis/T79.5XXS> a schema:MedicalCondition ;
+    schema:description "Traumatic anuria, sequela" ;
+    schema:identifier "T79.5XXS" ;
+    schema:name "Traumatic anuria, sequela" .
+
+<https://synmed.org/diagnosis/T83.010S> a schema:MedicalCondition ;
+    schema:description "Breakdown (mechanical) of cystostomy catheter, sequela" ;
+    schema:identifier "T83.010S" ;
+    schema:name "Breakdown (mechanical) of cystostomy catheter, sequela" .
+
+<https://synmed.org/diagnosis/T86.30> a schema:MedicalCondition ;
+    schema:description "Unspecified complication of heart-lung transplant" ;
+    schema:identifier "T86.30" ;
+    schema:name "Unspecified complication of heart-lung transplant" .
+
+<https://synmed.org/medication/A04AA01> a schema:Drug ;
+    schema:administrationRoute "Parenteral" ;
+    schema:description "Dosage: 16.0 mg per day" ;
+    schema:identifier "A04AA01" ;
+    schema:name "ondansetron" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Parenteral> .
+
+<https://synmed.org/medication/A10BB04> a schema:Drug ;
+    schema:administrationRoute "Oral" ;
+    schema:description "Dosage: 38.0 mg per day" ;
+    schema:identifier "A10BB04" ;
+    schema:name "glibornuride" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Oral> .
+
+<https://synmed.org/medication/A10BB08> a schema:Drug ;
+    schema:administrationRoute "Oral" ;
+    schema:description "Dosage: 60.0 mg per day" ;
+    schema:identifier "A10BB08" ;
+    schema:name "gliquidone" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Oral> .
+
+<https://synmed.org/medication/A10BB12> a schema:Drug ;
+    schema:administrationRoute "Oral" ;
+    schema:description "Dosage: 2.0 mg per day" ;
+    schema:identifier "A10BB12" ;
+    schema:name "glimepiride" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Oral> .
+
+<https://synmed.org/medication/A12BA05> a schema:Drug ;
+    schema:identifier "A12BA05" ;
+    schema:name "potassium gluconate" .
+
+<https://synmed.org/medication/B01AB01> a schema:Drug ;
+    schema:administrationRoute "Parenteral" ;
+    schema:description "Dosage: 10.0 TU per day" ;
+    schema:identifier "B01AB01" ;
+    schema:name "heparin" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Parenteral> .
+
+<https://synmed.org/medication/B01AC04> a schema:Drug ;
+    schema:administrationRoute "Oral" ;
+    schema:description "Dosage: 75.0 mg per day" ;
+    schema:identifier "B01AC04" ;
+    schema:name "clopidogrel" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Oral> .
+
+<https://synmed.org/medication/B01AC06> a schema:Drug ;
+    schema:administrationRoute "Oral" ;
+    schema:description "Dosage: 1.0 tablet per day" ;
+    schema:identifier "B01AC06" ;
+    schema:name "acetylsalicylic acid" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Oral> .
+
+<https://synmed.org/medication/B01AC07> a schema:Drug ;
+    schema:administrationRoute "Oral" ;
+    schema:description "Dosage: 0.4 g per day" ;
+    schema:identifier "B01AC07" ;
+    schema:name "dipyridamole" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Oral> .
+
+<https://synmed.org/medication/B01AC08> a schema:Drug ;
+    schema:administrationRoute "Oral" ;
+    schema:description "Dosage: 1.0 tablet per day" ;
+    schema:identifier "B01AC08" ;
+    schema:name "carbasalate calcium" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Oral> .
+
+<https://synmed.org/medication/B01AC10> a schema:Drug ;
+    schema:identifier "B01AC10" ;
+    schema:name "indobufen" .
+
+<https://synmed.org/medication/B01AF02> a schema:Drug ;
+    schema:administrationRoute "Oral" ;
+    schema:description "Dosage: 10.0 mg per day" ;
+    schema:identifier "B01AF02" ;
+    schema:name "apixaban" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Oral> .
+
+<https://synmed.org/medication/B02BA01> a schema:Drug ;
+    schema:administrationRoute "Oral" ;
+    schema:description "Dosage: 20.0 mg per day" ;
+    schema:identifier "B02BA01" ;
+    schema:name "phytomenadione" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Oral> .
+
+<https://synmed.org/medication/B03XA03> a schema:Drug ;
+    schema:administrationRoute "Parenteral" ;
+    schema:description "Dosage: 4.0 mcg per day" ;
+    schema:identifier "B03XA03" ;
+    schema:name "methoxy polyethylene glycol-epoetin beta" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Parenteral> .
+
+<https://synmed.org/medication/C03CA01> a schema:Drug ;
+    schema:administrationRoute "Parenteral" ;
+    schema:description "Dosage: 40.0 mg per day" ;
+    schema:identifier "C03CA01" ;
+    schema:name "furosemide" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Parenteral> .
+
+<https://synmed.org/medication/C05BA04> a schema:Drug ;
+    schema:identifier "C05BA04" ;
+    schema:name "pentosan polysulfate sodium" .
+
+<https://synmed.org/medication/C07AB07> a schema:Drug ;
+    schema:administrationRoute "Oral" ;
+    schema:description "Dosage: 10.0 mg per day" ;
+    schema:identifier "C07AB07" ;
+    schema:name "bisoprolol" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Oral> .
+
+<https://synmed.org/medication/C08CA04> a schema:Drug ;
+    schema:administrationRoute "Parenteral" ;
+    schema:description "Dosage: 90.0 mg per day" ;
+    schema:identifier "C08CA04" ;
+    schema:name "nicardipine" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Parenteral> .
+
+<https://synmed.org/medication/C09CA01> a schema:Drug ;
+    schema:administrationRoute "Oral" ;
+    schema:description "Dosage: 50.0 mg per day" ;
+    schema:identifier "C09CA01" ;
+    schema:name "losartan" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Oral> .
+
+<https://synmed.org/medication/C10AB04> a schema:Drug ;
+    schema:administrationRoute "Oral" ;
+    schema:description "Dosage: 1.2 g per day" ;
+    schema:identifier "C10AB04" ;
+    schema:name "gemfibrozil" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Oral> .
+
+<https://synmed.org/medication/C10AX06> a schema:Drug ;
+    schema:administrationRoute "Oral" ;
+    schema:description "Dosage: 4.0 g per day" ;
+    schema:identifier "C10AX06" ;
+    schema:name "omega-3-triglycerides incl. other esters and acids" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Oral> .
+
+<https://synmed.org/medication/C10AX09> a schema:Drug ;
+    schema:administrationRoute "Oral" ;
+    schema:description "Dosage: 10.0 mg per day" ;
+    schema:identifier "C10AX09" ;
+    schema:name "ezetimibe" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Oral> .
+
+<https://synmed.org/medication/C10BX04> a schema:Drug ;
+    schema:identifier "C10BX04" ;
+    schema:name "simvastatin, acetylsalicylic acid and ramipril" .
+
+<https://synmed.org/medication/D06AX04> a schema:Drug ;
+    schema:identifier "D06AX04" ;
+    schema:name "neomycin" .
+
+<https://synmed.org/medication/D08AJ59> a schema:Drug ;
+    schema:identifier "D08AJ59" ;
+    schema:name "dodeclonium bromide, combinations" .
+
+<https://synmed.org/medication/D08AK04> a schema:Drug ;
+    schema:identifier "D08AK04" ;
+    schema:name "merbromin" .
+
+<https://synmed.org/medication/H02AB06> a schema:Drug ;
+    schema:administrationRoute "Parenteral" ;
+    schema:description "Dosage: 10.0 mg per day" ;
+    schema:identifier "H02AB06" ;
+    schema:name "prednisolone" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Parenteral> .
+
+<https://synmed.org/medication/H02AB07> a schema:Drug ;
+    schema:administrationRoute "Oral" ;
+    schema:description "Dosage: 10.0 mg per day" ;
+    schema:identifier "H02AB07" ;
+    schema:name "prednisone" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Oral> .
+
+<https://synmed.org/medication/L01AA03> a schema:Drug ;
+    schema:identifier "L01AA03" ;
+    schema:name "melphalan" .
+
+<https://synmed.org/medication/L01AD02> a schema:Drug ;
+    schema:identifier "L01AD02" ;
+    schema:name "lomustine" .
+
+<https://synmed.org/medication/L01BA05> a schema:Drug ;
+    schema:identifier "L01BA05" ;
+    schema:name "pralatrexate" .
+
+<https://synmed.org/medication/L01XD01> a schema:Drug ;
+    schema:identifier "L01XD01" ;
+    schema:name "porfimer sodium" .
+
+<https://synmed.org/medication/L04AX03> a schema:Drug ;
+    schema:administrationRoute "Parenteral" ;
+    schema:description "Dosage: 2.5 mg per day" ;
+    schema:identifier "L04AX03" ;
+    schema:name "methotrexate" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Parenteral> .
+
+<https://synmed.org/medication/M01AB05> a schema:Drug ;
+    schema:administrationRoute "Parenteral" ;
+    schema:description "Dosage: 0.1 g per day" ;
+    schema:identifier "M01AB05" ;
+    schema:name "diclofenac" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Parenteral> .
+
+<https://synmed.org/medication/M01AC56> a schema:Drug ;
+    schema:identifier "M01AC56" ;
+    schema:name "meloxicam, combinations" .
+
+<https://synmed.org/medication/M02AA12> a schema:Drug ;
+    schema:identifier "M02AA12" ;
+    schema:name "naproxen" .
+
+<https://synmed.org/medication/N02BE51> a schema:Drug ;
+    schema:identifier "N02BE51" ;
+    schema:name "paracetamol, combinations excl. psycholeptics" .
+
+<https://synmed.org/medication/V03AB03> a schema:Drug ;
+    schema:identifier "V03AB03" ;
+    schema:name "edetates" .
+
+<https://synmed.org/diagnosis/E79.2> a schema:MedicalCondition ;
+    schema:description "Myoadenylate deaminase deficiency" ;
+    schema:identifier "E79.2" ;
+    schema:name "Myoadenylate deaminase deficiency" .
+
+<https://synmed.org/diagnosis/E79.89> a schema:MedicalCondition ;
+    schema:description "Other specified disorders of purine and pyrimidine metabolism" ;
+    schema:identifier "E79.89" ;
+    schema:name "Oth disrd of purine and pyrimidine metabolism" .
+
+<https://synmed.org/diagnosis/I63.133> a schema:MedicalCondition ;
+    schema:description "Cerebral infarction due to embolism of bilateral carotid arteries" ;
+    schema:identifier "I63.133" ;
+    schema:name "Cerebral infrc due to embolism of bilateral carotid arteries" .
+
+<https://synmed.org/diagnosis/I63.342> a schema:MedicalCondition ;
+    schema:description "Cerebral infarction due to thrombosis of left cerebellar artery" ;
+    schema:identifier "I63.342" ;
+    schema:name "Cerebral infarction due to thrombosis of left cereblr artery" .
+
+<https://synmed.org/diagnosis/I66.19> a schema:MedicalCondition ;
+    schema:description "Occlusion and stenosis of unspecified anterior cerebral artery" ;
+    schema:identifier "I66.19" ;
+    schema:name "Occlusion and stenosis of unsp anterior cerebral artery" .
+
+<https://synmed.org/diagnosis/I66.29> a schema:MedicalCondition ;
+    schema:description "Occlusion and stenosis of unspecified posterior cerebral artery" ;
+    schema:identifier "I66.29" ;
+    schema:name "Occlusion and stenosis of unsp posterior cerebral artery" .
+
+<https://synmed.org/diagnosis/I66.3> a schema:MedicalCondition ;
+    schema:description "Occlusion and stenosis of cerebellar arteries" ;
+    schema:identifier "I66.3" ;
+    schema:name "Occlusion and stenosis of cerebellar arteries" .
+
+<https://synmed.org/diagnosis/I66.9> a schema:MedicalCondition ;
+    schema:description "Occlusion and stenosis of unspecified cerebral artery" ;
+    schema:identifier "I66.9" ;
+    schema:name "Occlusion and stenosis of unspecified cerebral artery" .
+
+<https://synmed.org/medication/B01AE02> a schema:Drug ;
+    schema:administrationRoute "Parenteral" ;
+    schema:description "Dosage: 0.25 g per day" ;
+    schema:identifier "B01AE02" ;
+    schema:name "lepirudin" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Parenteral> .
+
+<https://synmed.org/medication/C10AA05> a schema:Drug ;
+    schema:administrationRoute "Oral" ;
+    schema:description "Dosage: 20.0 mg per day" ;
+    schema:identifier "C10AA05" ;
+    schema:name "atorvastatin" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Oral> .
+
+<https://synmed.org/medication/C10AX14> a schema:Drug ;
+    schema:administrationRoute "Parenteral" ;
+    schema:description "Dosage: 5.4 mg per day" ;
+    schema:identifier "C10AX14" ;
+    schema:name "alirocumab" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Parenteral> .
+
+<https://synmed.org/medication/N06BX13> a schema:Drug ;
+    schema:administrationRoute "Oral" ;
+    schema:description "Dosage: 0.9 g per day" ;
+    schema:identifier "N06BX13" ;
+    schema:name "idebenone" ;
+    base:hasAdministrationRoute <https://synmed.org/route/Oral> .
+
+<https://synmed.org/diagnosis/I63.439> a schema:MedicalCondition ;
+    schema:description "Cerebral infarction due to embolism of unspecified posterior cerebral artery" ;
+    schema:identifier "I63.439" ;
+    schema:name "Cerebral infrc due to embolism of unsp post cerebral artery" .
+
+<https://synmed.org/diagnosis/I66.23> a schema:MedicalCondition ;
+    schema:description "Occlusion and stenosis of bilateral posterior cerebral arteries" ;
+    schema:identifier "I66.23" ;
+    schema:name "Occlusion and stenosis of bi posterior cerebral arteries" .
+
+<https://synmed.org/medication/C10BX06> a schema:Drug ;
+    schema:identifier "C10BX06" ;
+    schema:name "atorvastatin, acetylsalicylic acid and ramipril" .
+
+<https://synmed.org/diagnosis/I66.03> a schema:MedicalCondition ;
+    schema:description "Occlusion and stenosis of bilateral middle cerebral arteries" ;
+    schema:identifier "I66.03" ;
+    schema:name "Occlusion and stenosis of bilateral middle cerebral arteries" .
+
+<https://synmed.org/diagnosis/E02> a schema:MedicalCondition ;
+    schema:description "Subclinical iodine-deficiency hypothyroidism" ;
+    schema:identifier "E02" ;
+    schema:name "Subclinical iodine-deficiency hypothyroidism" .
+
+<https://synmed.org/route/Parenteral> a base:AdministrationRoute ;
+    base:description "Medication administered by injection or infusion" ;
+    base:name "Parenteral" .
+
+<https://synmed.org/route/Oral> a base:AdministrationRoute ;
+    base:description "Medication taken through the mouth" ;
+    base:name "Oral" .
+
