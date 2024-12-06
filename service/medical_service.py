@@ -4,7 +4,7 @@ from functools import lru_cache
 from itertools import chain
 
 from config import ConfigManager
-from data.chapter_weights import chapter_probs, chapter_weights
+from data.chapter_weights1 import chapter_probs, chapter_weights
 from data.distributions import age_groups_diagnoses, male_diagnoses, maternity_diagnoses, female_diagnoses, age_ranges
 from data.icd_groups import icd_groups
 from domain.Gender import Gender
@@ -79,7 +79,7 @@ def get_diagnosis(gender, age_group, maternity):
     chapter_choice = choose_chapter()
     filtered_diagnoses = get_filtered_diagnoses(chapter_choice, gender, age_group, maternity)
 
-    grouped_diagnoses = group_diagnoses_by_prefix(filtered_diagnoses)
+    grouped_diagnoses = group_diagnoses_by_prefix(filtered_diagnoses, chapter_choice)
     selected_prefix = choose_prefix(grouped_diagnoses, chapter_choice)
 
     selected_diagnosis = select_diagnosis_from_group(grouped_diagnoses[selected_prefix], filtered_diagnoses)
@@ -97,10 +97,13 @@ def choose_chapter():
     return random.choices(list(chapter_probs.keys()), weights=list(chapter_probs.values()), k=1)[0]
 
 
-def group_diagnoses_by_prefix(diagnoses):
+def group_diagnoses_by_prefix(diagnoses, chapter):
     grouped = defaultdict(list)
     for diagnosis in diagnoses:
-        prefix = diagnosis[:3]
+        for length in [5, 4, 3]:
+            prefix = diagnosis[:length]
+            if prefix in chapter_weights[chapter]:
+                break
         if prefix in grouped:
             grouped[prefix].append(diagnosis)
         else:

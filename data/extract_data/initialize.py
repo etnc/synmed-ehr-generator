@@ -8,6 +8,7 @@ import time
 from data.icd_groups import icd_groups
 from data.previous_data.drug_data import drug_data
 from data.icd_codes import icd_codes
+from icd_counts import icd_counts
 
 
 def extract_icd_codes(input_file, output_file):
@@ -167,6 +168,7 @@ def get_icd_groups():
                 py_file.write(f"    \"{code}\": {codes},\n")
         py_file.write("}\n")
 
+
 # def icd_medication():
 #     df = pd.read_csv('../raw_data/icd_diagnoses.csv')
 #
@@ -232,33 +234,26 @@ def icd_distribution():
         'T': 8222, 'F': 8028, 'A': 5975, 'L': 5670, 'P': 1814, 'U': 10
     }
     total_frequency = sum(frequencies.values())
-    chapter_probs = {chapter: round(freq / total_frequency, 3) for chapter, freq in frequencies.items()}
-    icd_occurrences = {
-        'I10': 149249, 'I63': 95993, 'E11': 84824, 'I25': 55549, 'C34': 54780,
-        'C50': 49343, 'J18': 26136, 'K29': 24994, 'I20': 24714, 'N18': 19818,
-        'C16': 19172, 'I50': 15438, 'I67': 15375, 'C78': 14930, 'B18': 14751,
-        'C20': 14304, 'J98': 13998, 'C22': 13966, 'C79': 13913, 'K76': 13240,
-        'I48': 12739, 'K74': 12602, 'C18': 12344, 'J44': 10674, 'K80': 10640,
-        'C15': 10471, 'M32': 10309, 'C56': 9960, 'I49': 9782, 'C92': 9628
-    }
+    chapter_probs = {chapter: round(freq / total_frequency, 4) for chapter, freq in frequencies.items()}
+
     chapter_weights = {}
 
     for chapter, total_frequency in (frequencies.items()):
         chapter_codes = [code for code in icd_groups if code.startswith(chapter)]
-        chapter_codes_30 = [code for code in icd_occurrences.keys() if code.startswith(chapter)]
-        print(f"chapter {chapter}, codes: {chapter_codes_30}")
+        chapter_codes_occurrences = [code for code in icd_counts.keys() if code.startswith(chapter)]
+        print(f"chapter {chapter}, codes: {chapter_codes_occurrences}")
 
         chapter_weights[chapter] = {}
-        chapter_total_30 = sum(icd_occurrences[key] for key in chapter_codes_30)
-        print(f"total for chapter from 30: {chapter_total_30}")
+        chapter_total_occurrences = sum(icd_counts.get(key, 0) for key in chapter_codes)
+        print(f"total for chapter from 30: {chapter_total_occurrences}")
 
-        for code in chapter_codes_30:
-            code_frequency = icd_occurrences[code]
+        for code in chapter_codes_occurrences:
+            code_frequency = icd_counts[code]
             weight = (code_frequency / total_frequency) * 100
             print(f"code {code}, wight: {weight}")
             chapter_weights[chapter][code] = weight
 
-        remaining_codes = [code for code in chapter_codes if code not in chapter_codes_30]
+        remaining_codes = [code for code in chapter_codes if code not in chapter_codes_occurrences]
         print(sum(chapter_weights[chapter].values()))
         remaining_weight = 100 - sum(chapter_weights[chapter].values())
         print(remaining_weight)
@@ -266,13 +261,18 @@ def icd_distribution():
             equal_weight = remaining_weight / len(remaining_codes)
             for code in remaining_codes:
                 chapter_weights[chapter][code] = equal_weight
+        weight_sum = sum(chapter_weights[chapter].values())
+        # if weight_sum != 100:
+        #     diff = 100 - weight_sum
+        #     chapter_weights[chapter][list(chapter_weights[chapter].keys())[0]] += diff
 
     for chapter, weights in chapter_weights.items():
-        chapter_weights[chapter] = {code: round(weight, 2) for code, weight in weights.items()}
+        chapter_weights[chapter] = {code: round(weight, 3) for code, weight in weights.items()}
     for chapter, weights in chapter_weights.items():
         print(f"Chapter {chapter}: {weights}")
+        print(f"Total after rounding (2 decimals): {sum(chapter_weights[chapter].values())}")
 
-    output_file = '../chapter_weights.py'
+    output_file = '../chapter_weights1.py'
     try:
         with open(output_file, 'w') as py_file:
             py_file.write("chapter_weights = {\n")
@@ -291,6 +291,5 @@ def icd_distribution():
     except Exception as e:
         raise RuntimeError(f"Error writing to Python file: {e}")
 
-# icd_distribution()
 
-
+icd_distribution()

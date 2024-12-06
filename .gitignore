@@ -1,4 +1,4 @@
 data/raw_data/
 data/previous_data/
-__pycache__/
+*__pycache__/
 *.pyc
