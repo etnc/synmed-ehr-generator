@@ -70,7 +70,7 @@ def format_and_save_record(record, filename):
         'xml': ('xml', lambda r: xml.dom.minidom.parseString(
             dicttoxml(r, custom_root='PatientRecord', attr_type=False)
         ).toprettyxml()),
-        'turtle': ('ttl', lambda r: generate_rdf(r, result_format)),
+        'turtle': ('ttl', lambda r: generate_rdf(r, 'ttl')),
         'json-ld': ('jsonld', lambda r: generate_rdf(r, result_format)),
         'rdf/xml': ('rdf', lambda r: generate_rdf(r, 'xml')),
     }
@@ -78,7 +78,8 @@ def format_and_save_record(record, filename):
     if result_format.lower() in extension_map:
         extension, generate_data = extension_map[result_format.lower()]
         data = generate_data(record)
-        with open(f"{filename}.{extension}", 'w', encoding='utf-8') as f:
+        file_path = f"results/{filename}.{extension}"
+        with open(file_path, 'w', encoding='utf-8') as f:
             f.write(data)
         return extension
     else:

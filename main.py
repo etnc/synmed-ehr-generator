@@ -1,7 +1,9 @@
 import argparse
 import time
 from concurrent.futures import ProcessPoolExecutor
+
 from config import ConfigManager
+from service.fhir_service import save_fhir
 from service.generate_ehr_service import create_ehr_record, format_and_save_record
 from service.logger_service import setup_logger
 
@@ -11,6 +13,7 @@ def print_usage(logger):
 Usage:
   --records <number_of_records>   Number of records to generate
   --result_format <format>        Output format (JSON, XML, Turtle)
+  --fhir                          Get records in additional fhir format
 
 Config file settings:
   - maternity: <value>            Probability of generating maternity records
@@ -25,25 +28,28 @@ def parse_arguments():
     parser.add_argument("--config", type=str, default="config.yml", help="Path to the YAML configuration file")
     parser.add_argument("--result_format", type=str, choices=["JSON", "XML", "turtle", "rdf/xml", "json-ld"],
                         help="Override result format (e.g., 'JSON')")
+    parser.add_argument("--generate_fhir", type=int, help="Set to 1 to generate FHIR data, 0 otherwise")
     parser.add_argument("--records", type=int, help="Number of records to generate (overrides YAML)")
     return parser.parse_args()
 
 
 def config_updated(args):
-    config = ConfigManager.load_config()  # Load the default configuration
+    config = ConfigManager.load_config()
     if args.records:
-        config['records'] = args.records  # Override with the provided number of records if any
+        config['records'] = args.records
     if args.result_format:
-        config['result_format'] = args.result_format.upper()  # Override with provided result format if any
-    ConfigManager.load_config(config)  # Load the final configuration
+        config['result_format'] = args.result_format.upper()
+    ConfigManager.load_config(config)
     return config
 
 
-def generate_and_save_records():
+def generate_and_save_records(number):
     start_time = time.time()
     with ProcessPoolExecutor() as executor:
-        results = list(executor.map(create_ehr_record, range(ConfigManager.config_record())))
-    file_format = format_and_save_record(results, 'generated_data')  # Save the records to file
+        results = list(executor.map(create_ehr_record, range(number)))
+    file_format = format_and_save_record(results, 'generated_data')
+    if ConfigManager.config_fhir():
+        save_fhir(records=results)
     end_time = time.time()
     elapsed_time = end_time - start_time
     return file_format, elapsed_time
@@ -54,13 +60,15 @@ def main():
     print_usage(logger)
     arguments = parse_arguments()
     config_updated(arguments)
+    number = ConfigManager.config_record()
 
-    logger.info("\nFinal Configuration:")
+    logger.info("-Final Configuration:")
     logger.info(ConfigManager.get_config())
+    logger.info(f"Generating {number} records....")
 
-    file_format, elapsed_time = generate_and_save_records()
-    print(f"Records have been written to generated_data.{file_format}...")
-    print(f"Time taken: {elapsed_time:.2f} seconds.")
+    file_format, elapsed_time = generate_and_save_records(number)
+    logger.info(f"Records have been written to results/generated_data.{file_format}...")
+    logger.info(f"Time taken: {elapsed_time:.2f} seconds.")
 
 
 if __name__ == "__main__":

@@ -53,7 +53,7 @@ def get_phone_number(phone_number):
 
 
 def determine_maternity(gender, age_group):
-    if gender == Gender.FEMALE.value and (age_group == "adults" or age_group == 'young adults'):
+    if gender == Gender.FEMALE.value and (age_group == "adults"):
         weight = ConfigManager.config_maternity()
         rand_num = random.random()
         if rand_num < weight:

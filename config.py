@@ -40,5 +40,9 @@ class ConfigManager:
     def config_record(cls):
         return cls.get_config().get("records", 1)
 
+    @classmethod
+    def config_fhir(cls):
+        return cls.get_config().get("generate_fhir", 0)
+
 
 ConfigManager.load_config()

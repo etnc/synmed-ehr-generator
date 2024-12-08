@@ -1,9 +1,8 @@
 from urllib.parse import urljoin, quote
 from rdflib import RDF, Literal, RDFS, Namespace, Graph, URIRef
 
-
 def generate_rdf(records, rdf_format):
-    valid_formats = ('turtle', 'json-ld', 'xml',)
+    valid_formats = ('ttl', 'json-ld', 'xml',)
     if rdf_format not in valid_formats:
         raise ValueError(f"Invalid format '{rdf_format}'. Supported formats are: {','.join(valid_formats)}")
     BASE = Namespace("https://synmed.org/")
@@ -51,7 +50,6 @@ def generate_rdf(records, rdf_format):
         g.add((diagnosis_uri_to_add, SCHEMA.identifier, Literal(diagnosis_code)))
         g.add((diagnosis_uri_to_add, SCHEMA.name, Literal(diagnosis_name)))
         g.add((diagnosis_uri_to_add, SCHEMA.description, Literal(diagnosis_description)))
-
 
     def add_medication():
         medication_name = medication_data["name"]

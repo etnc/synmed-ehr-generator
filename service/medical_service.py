@@ -48,8 +48,6 @@ def get_antecedent_diagnose(rules):
 
 @lru_cache(maxsize=128)
 def get_filtered_diagnoses(chapter, gender, age_group, maternity):
-    if chapter == 'O':
-        maternity = True
     relevant_code_groups = [code for code in icd_groups if code.startswith(chapter)]
     relevant_codes = list(chain(*[icd_groups[group] for group in relevant_code_groups]))
     config_filter_icd_groups = ConfigManager.config_filter_icd_groups()
@@ -76,7 +74,7 @@ def get_filtered_diagnoses(chapter, gender, age_group, maternity):
 def get_diagnosis(gender, age_group, maternity):
     validate_inputs(gender, age_group)
 
-    chapter_choice = choose_chapter()
+    chapter_choice = choose_chapter(maternity)
     filtered_diagnoses = get_filtered_diagnoses(chapter_choice, gender, age_group, maternity)
 
     grouped_diagnoses = group_diagnoses_by_prefix(filtered_diagnoses, chapter_choice)
@@ -93,8 +91,12 @@ def validate_inputs(gender, age_group):
         raise ValueError(f"Invalid age group: {age_group}")
 
 
-def choose_chapter():
-    return random.choices(list(chapter_probs.keys()), weights=list(chapter_probs.values()), k=1)[0]
+def choose_chapter(maternity):
+    excluded_choices = ["O"] if not maternity else []
+    filtered_keys = [key for key in chapter_probs.keys() if key not in excluded_choices]
+    filtered_weights = [chapter_probs[key] for key in filtered_keys]
+
+    return random.choices(list(filtered_keys), weights=list(filtered_weights), k=1)[0]
 
 
 def group_diagnoses_by_prefix(diagnoses, chapter):
