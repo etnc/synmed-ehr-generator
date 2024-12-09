@@ -13,7 +13,7 @@ def print_usage(logger):
 Usage:
   --records <number_of_records>   Number of records to generate
   --result_format <format>        Output format (JSON, XML, Turtle)
-  --fhir                          Get records in additional fhir format
+  --generate_fhir                 Get records in additional fhir format
 
 Config file settings:
   - maternity: <value>            Probability of generating maternity records

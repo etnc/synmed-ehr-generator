@@ -1,12 +1,9 @@
-import random
 
-import pandas as pd
 from tqdm import tqdm
 import requests
 from bs4 import BeautifulSoup
 import time
 from data.icd_groups import icd_groups
-from data.previous_data.drug_data import drug_data
 from data.icd_codes import icd_codes
 from icd_counts import icd_counts
 
@@ -48,61 +45,6 @@ def extract_icd_codes(input_file, output_file):
 # input_file_path = 'icd10cm-order-2025.txt'
 # output_file_path = 'icd_codes.py'
 # extract_icd_codes(input_file_path, output_file_path)
-
-
-def icd_10_distribution():
-    occurrences = [
-        149249, 95993, 84824, 55549, 54780, 49343, 26136, 24994, 24714, 19818, 19172, 15438, 15375, 14930, 14751,
-        14304, 13998, 13966, 13913, 13240, 12739, 12602, 12344, 10674, 10640, 10471, 10309, 9960, 9782, 9628
-    ]
-
-    codes = [
-        'I10', 'I63', 'E11', 'I25', 'C34', 'C50', 'J18', 'K29', 'I20', 'N18', 'C16', 'I50', 'I67', 'C78', 'B18', 'C20',
-        'J98', 'C22', 'C79', 'K76', 'I48', 'K74', 'C18', 'J44', 'K80', 'C15', 'M32', 'C56', 'I49', 'C92'
-    ]
-
-    additional_codes = set(key[:3] for key in icd_codes.keys() if key[:3] not in codes)
-
-    for code in additional_codes:
-        # Initialize the occurrence based on a random fraction of the minimum occurrence
-        occurrence = min(occurrences) * random.uniform(0.05, 0.1)
-
-        # Find similar codes based on the first 2 or 1 characters
-        similar_codes_2 = [existing_code for existing_code in codes if existing_code[:2] == code[:2]]
-        similar_codes_1 = [existing_code for existing_code in codes if existing_code[:1] == code[:1]]
-
-        # Apply different percentages based on the similarity
-        if similar_codes_2:
-            similar_code = similar_codes_2[0]
-            additional = random.uniform(0.01, 0.05)  # Small random fraction (1-5%)
-        elif similar_codes_1:
-            similar_code = similar_codes_1[0]
-            additional = random.uniform(0.005, 0.01)  # Even smaller fraction (0.5-1%)
-        else:
-            similar_code = None
-            additional = 0  # No additional percentage if no match
-
-        if similar_code:
-            similar_occurrence = occurrences[
-                codes.index(similar_code)]  # Corrected: use `similar_code`, not `additional`
-            occurrence += similar_occurrence * additional
-
-        occurrences.append(occurrence)
-        codes.append(code)
-
-    # Calculate total occurrences and the distribution
-    total_occurrences = sum(occurrences)
-    icd_10_distribution = {
-        icd: round((occurrences[i] / total_occurrences) * 100, 3)
-        for i, icd in enumerate(codes)
-    }
-
-    # Write to file
-    with open("../distributions.py", "a") as file:
-        file.write(f"icd_10_distribution = {icd_10_distribution}\n")
-
-    # For debugging
-    print(len(occurrences), total_occurrences, icd_10_distribution)
 
 
 def age_distribution():
@@ -167,40 +109,6 @@ def get_icd_groups():
             else:
                 py_file.write(f"    \"{code}\": {codes},\n")
         py_file.write("}\n")
-
-
-# def icd_medication():
-#     df = pd.read_csv('../raw_data/icd_diagnoses.csv')
-#
-#     icd_medications = {}
-#
-#     def preprocess_medication(medication):
-#         if 'Pneumococcal Polysaccharide' in medication:
-#             return 'Pneumococcal Polysaccharide Vaccine'
-#         return medication.strip()
-#
-#     df['Active ingredient'] = df['Active ingredient'].apply(lambda x: preprocess_medication(x))
-#
-#     for index, row in df.iterrows():
-#         icds = row['ICD Code'].split(',')
-#         medications = row['Active ingredient'].split(',')
-#
-#         for icd in icds:
-#             icd = icd.strip()
-#             if icd not in icd_medications:
-#                 icd_medications[icd] = []
-#
-#             for med in medications:
-#                 med = med.strip().capitalize()
-#                 if med not in icd_medications[icd] and med in drug_data.keys():
-#                     icd_medications[icd].append(med)
-#
-#     with open('../previous_data/icd10_medications.py', 'w', encoding='utf-8') as f:
-#         f.write("icd10_medications = {\n")
-#         for icd, meds in icd_medications.items():
-#             f.write(f"    '{icd}': {meds},\n")
-#         f.write("}\n")
-
 
 # get_diagnoses('https://www.icd10data.com/ICD10CM/Codes/Rules/Male_Diagnosis_Codes', 7,
 #               'male')
@@ -272,7 +180,7 @@ def icd_distribution():
         print(f"Chapter {chapter}: {weights}")
         print(f"Total after rounding (2 decimals): {sum(chapter_weights[chapter].values())}")
 
-    output_file = '../chapter_weights1.py'
+    output_file = '../chapter_weights.py'
     try:
         with open(output_file, 'w') as py_file:
             py_file.write("chapter_weights = {\n")
@@ -280,7 +188,7 @@ def icd_distribution():
                 weight_items = ', '.join([f"\"{code}\": {weight}" for code, weight in weights.items()])
                 py_file.write(f"    \"{chapter}\": {{ {weight_items} }},\n")
 
-            py_file.write("}\n\n")  # End the chapter_weights dictionary
+            py_file.write("}\n\n")
 
             py_file.write("chapter_probs = {\n")
             for chapter, prob in chapter_probs.items():

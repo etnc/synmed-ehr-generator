@@ -1,10 +1,11 @@
 maternity: 0.07
 faker:
   locale:
-    - en_US  # English (United States)  ---- https://faker.readthedocs.io/en/master/locales.html
-    - es_MX
+    - en_US  # English (United States)
+    - es_MX  # ---- https://faker.readthedocs.io/en/master/locales.html
 filter_icd_prefix: #prefix of ICD codes that won't be included in EHRs
   - A0
+  - S0
 result_format: 'JSON' #XML;JSON; turtle; rdf/xml; json-ld
 generate_fhir: 0
 records: 100

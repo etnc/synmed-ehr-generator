@@ -8,13 +8,11 @@ import csv
 
 
 def parse_drugbank_xml(file_path):
-    print("parse drugbank")
     namespaces = {'db': 'http://www.drugbank.ca'}
 
     drugs_data = {}
 
     for event, elem in ET.iterparse(file_path, events=('start', 'end')):
-        # We're interested in the "end" event, which means the element is fully parsed
         if event == 'end' and elem.tag == '{http://www.drugbank.ca}drug':
             drug_info = {}
 
@@ -25,7 +23,7 @@ def parse_drugbank_xml(file_path):
             drug_info['name'] = drug_name_elem.text
 
             dosages = []
-            forms_set = set()  # To track distinct dosage forms
+            forms_set = set()
             for dosage in elem.findall('./db:dosages/db:dosage', namespaces=namespaces):
                 form_elem = dosage.find('db:form', namespaces=namespaces)
                 form = form_elem.text if form_elem is not None and form_elem.text else None  # None if missing

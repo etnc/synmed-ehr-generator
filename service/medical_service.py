@@ -4,7 +4,7 @@ from functools import lru_cache
 from itertools import chain
 
 from config import ConfigManager
-from data.chapter_weights1 import chapter_probs, chapter_weights
+from data.chapter_weights import chapter_probs, chapter_weights
 from data.distributions import age_groups_diagnoses, male_diagnoses, maternity_diagnoses, female_diagnoses, age_ranges
 from data.icd_groups import icd_groups
 from domain.Gender import Gender

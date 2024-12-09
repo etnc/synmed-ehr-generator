@@ -9,7 +9,6 @@ def setup_logger() -> logging.Logger:
         logger = logging.getLogger(__name__)
         logger.setLevel(logging.DEBUG)
 
-        # Add a StreamHandler if no handlers are already present
         if not logger.hasHandlers():
             ch = logging.StreamHandler()
             ch.setLevel(logging.DEBUG)

@@ -7,17 +7,17 @@ api_key = os.getenv('OPENAI_KEY')
 openai.api_key = api_key
 
 
-# response = openai.ChatCompletion.create(
-#     model="gpt-4",
-#     messages=[
-#         {"role": "system",
-#          "content": "You are a helpful assistant that generates realistic Electronic Health Records (EHR) with patient information, diagnoses, and medications. You must ensure that the diagnoses and medications follow common distributions, with appropriate ICD codes and ATC codes. The data should be realistic, considering age, gender, and health conditions."},
-#         {"role": "user",
-#          "content": "Please generate 50 EHR records with the following details: Each record should include a patient's name, age, gender, diagnosis with ICD-10 codes, and corresponding medication with ATC codes. Ensure that the diagnoses are age-appropriate and the medications correspond to the diagnoses. Distribute the diagnoses realistically by frequency (e.g., common diseases should appear more often)."},
-#     ]
-# )
-#
-# print(response['choices'][0]['message']['content'])
+response = openai.ChatCompletion.create(
+    model="gpt-4",
+    messages=[
+        {"role": "system",
+         "content": "You are a helpful assistant that generates realistic Electronic Health Records (EHR) with patient information, diagnoses, and medications. You must ensure that the diagnoses and medications follow common distributions, with appropriate ICD codes and ATC codes. The data should be realistic, considering age, gender, and health conditions."},
+        {"role": "user",
+         "content": "Please generate 50 EHR records with the following details: Each record should include a patient's name, age, gender, diagnosis with ICD-10 codes, and corresponding medication with ATC codes. Ensure that the diagnoses are age-appropriate and the medications correspond to the diagnoses. Distribute the diagnoses realistically by frequency (e.g., common diseases should appear more often)."},
+    ]
+)
+
+print(response['choices'][0]['message']['content'])
 
 
 def generate_batch(batch_number):
@@ -85,4 +85,3 @@ def generate_all_batches(total_batches):
     return all_records
 
 
-# all_records = generate_all_batches(2)
