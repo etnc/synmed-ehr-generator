@@ -15,6 +15,7 @@ predefined distributions for gender, age, and diagnosis commonality.
 - *Medical Data*:
     - Diagnoses mapped to ICD-10 codes
     - Medications mapped to ATC codes
+    - Medications Details
     - Medications linked to diagnoses
     - Diagnoses distributions
 - Export Formats: Supports JSON, RDF, XML and additional FHIR in JSON format
@@ -37,9 +38,9 @@ predefined distributions for gender, age, and diagnosis commonality.
 ```bash
 pip install -r requirements.txt
 ```
-##### 3.Set up the configuration file (config.yml)
+##### 4.Set up the configuration file (config.yml)
 
-##### 3.Generate EHR data by running:
+##### 5.Generate EHR data by running:
 
     python generate_ehr.py
 Or (overrides config.yml):
