@@ -53,3 +53,4 @@ stored in a file corresponding to the specified format. For example:
 - `results/generated_data.json`
 - `results/generated_data.rdf`
 - `results/generated_data.json-ld`
+- `results/generated_data.ttl` 
