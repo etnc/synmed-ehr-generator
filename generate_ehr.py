@@ -26,7 +26,9 @@ Config file settings:
 def parse_arguments():
     parser = argparse.ArgumentParser(description="EHR Record Generator")
     parser.add_argument("--config", type=str, default="config.yml", help="Path to the YAML configuration file")
-    parser.add_argument("--result_format", type=str, choices=["JSON", "XML", "turtle", "rdf/xml", "json-ld"],
+    parser.add_argument("--result_format", type=str,
+                        choices=["json", "xml", "turtle", "rdf/xml", "json-ld", "JSON", "XML", "TURTLE", "RDF/XML",
+                                 "JSON-LD"],
                         help="Override result format (e.g., 'JSON')")
     parser.add_argument("--generate_fhir", type=int, help="Set to 1 to generate FHIR data, 0 otherwise")
     parser.add_argument("--records", type=int, help="Number of records to generate (overrides YAML)")
