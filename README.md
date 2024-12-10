@@ -44,7 +44,7 @@ pip install -r requirements.txt
     python generate_ehr.py
 Or (overrides config.yml):
 
-    python generate_ehr.py --records 100 --result_format turtle --fhir 1 
+    python generate_ehr.py --records 100 --result_format turtle --generate_fhir 1 
 
 After running the script, the generated EHR data will be saved in the `results/` folder. Each generated record will be
 stored in a file corresponding to the specified format. For example:
