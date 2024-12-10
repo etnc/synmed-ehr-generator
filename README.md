@@ -11,13 +11,13 @@ predefined distributions for gender, age, and diagnosis commonality.
 
 - *Patient Information*:
     - Includes details such as ID, name, age, gender, date of birth, address, and phone number.
+    - Age and Gender Distribution
 - *Medical Data*:
     - Diagnoses mapped to ICD-10 codes
     - Medications mapped to ATC codes
     - Medications linked to diagnoses
-    - Age and Gender Distribution
     - Diagnoses distributions
-    - Export Formats: Supports JSON, RDF, XML and additional FHIR
+- Export Formats: Supports JSON, RDF, XML and additional FHIR in JSON format
 
 ### Usage
 
