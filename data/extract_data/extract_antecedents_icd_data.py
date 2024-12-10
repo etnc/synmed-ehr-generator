@@ -30,8 +30,8 @@ def filter_antecedents_data():
     def normalize_lift(lift):
         return (lift - min_lift) / (max_lift - min_lift)
 
-    alpha = 0.4  # Weight for support
-    beta = 0.6  # Weight for normalized lift
+    alpha = 0.4
+    beta = 0.6
     threshold = 0.2
 
     filtered_rules = []
