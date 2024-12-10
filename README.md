@@ -27,27 +27,28 @@ predefined distributions for gender, age, and diagnosis commonality.
 
 - Required libraries
 
-```bash
-pip install -r requirements.txt
-```
-
 ##### 1.Clone this repository:
 
     git clone https://github.com/evamilenkova/synmed-ehr-generator
-    
+
     cd synmed-ehr-generator
 
-##### 2.Set up the configuration file (config.yaml)
+##### 2. Install required libraries 
+```bash
+pip install -r requirements.txt
+```
+##### 3.Set up the configuration file (config.yml)
 
 ##### 3.Generate EHR data by running:
 
     python generate_ehr.py
+Or (overrides config.yml):
 
-    python generate_ehr.py --records 100 --result_format turtle --fhir 1 (overrides config.yml)
+    python generate_ehr.py --records 100 --result_format turtle --fhir 1 
 
 After running the script, the generated EHR data will be saved in the `results/` folder. Each generated record will be
 stored in a file corresponding to the specified format. For example:
 
 - `results/generated_data.json`
-- `results/generated_data.xml`
+- `results/generated_data.rdf`
 - `results/generated_data.json-ld`
