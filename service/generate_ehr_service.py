@@ -63,7 +63,7 @@ def create_ehr_record(_):
 
 
 def format_and_save_record(record, filename):
-    result_format = ConfigManager.config_result_format()
+    result_format = ConfigManager.config_result_format().lower()
 
     extension_map = {
         'json': ('json', lambda r: json.dumps(r, indent=4)),
@@ -71,12 +71,12 @@ def format_and_save_record(record, filename):
             dicttoxml(r, custom_root='PatientRecord', attr_type=False)
         ).toprettyxml()),
         'turtle': ('ttl', lambda r: generate_rdf(r, 'ttl')),
-        'json-ld': ('jsonld', lambda r: generate_rdf(r, result_format)),
+        'json-ld': ('json-ld', lambda r: generate_rdf(r, result_format)),
         'rdf/xml': ('rdf', lambda r: generate_rdf(r, 'xml')),
     }
 
-    if result_format.lower() in extension_map:
-        extension, generate_data = extension_map[result_format.lower()]
+    if result_format in extension_map:
+        extension, generate_data = extension_map[result_format]
         data = generate_data(record)
         file_path = f"results/{filename}.{extension}"
         with open(file_path, 'w', encoding='utf-8') as f:
