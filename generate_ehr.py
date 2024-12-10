@@ -40,7 +40,9 @@ def config_updated(args):
     if args.records:
         config['records'] = args.records
     if args.result_format:
-        config['result_format'] = args.result_format.upper()
+        config['result_format'] = args.result_format.lower()
+    if args.generate_fhir:
+        config['generate_fhir'] = args.generate_fhir
     ConfigManager.load_config(config)
     return config
 
@@ -74,8 +76,8 @@ def main():
 
 
 if __name__ == "__main__":
-    #     # profiler = cProfile.Profile()
-    #     # profiler.enable()
+    #  profiler = cProfile.Profile()
+    #  profiler.enable()
     main()
     # profiler.disable()
     # profiler.print_stats()

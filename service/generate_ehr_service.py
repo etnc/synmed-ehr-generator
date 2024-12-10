@@ -83,5 +83,4 @@ def format_and_save_record(record, filename):
             f.write(data)
         return extension
     else:
-        print(result_format)
         raise ValueError(f"Unsupported result format: {result_format}")
