@@ -1,4 +1,4 @@
-## SynMed: A Synthetic EHR Knowledge Graph Generator
+## SynMedGenerator: A Synthetic EHR Knowledge Graph Generator
 
 ### Overview
 
