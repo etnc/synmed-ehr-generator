@@ -1,11 +1,12 @@
-## EHR Generation System Synmed
+## SynMed: A Synthetic EHR Knowledge Graph Generator
 
 ### Overview
 
-This project is designed to generate and manage Electronic Health Records (EHRs) using a flexible and customizable data
-generation system. The system enables the creation of patient records, including demographics, diagnoses,
-medications and patient medical history. It supports multiple formats (JSON, RDF, XML) and adheres to
-predefined distributions for gender, age, and diagnosis commonality.
+This project is designed to generate synthetic Electronic Health Records (EHRs) using a flexible and customizable data
+generation system. The generated data is represented as an RDF Knowledge Graph (KG). The system enables the creation 
+of patient records, including demographics, diagnoses, medications and patient medical history. It supports multiple 
+formats (JSON, RDF, XML) and adheres to predefined real-world probability distribution for gender, age, and diagnosis 
+commonality.
 
 ### Data
 
